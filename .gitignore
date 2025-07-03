@@ -2,3 +2,6 @@
 
 # ignore vscode workspace files
 *.code-workspace
+
+# ignore template files
+temp.*
