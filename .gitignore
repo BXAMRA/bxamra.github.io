@@ -5,3 +5,5 @@
 
 # ignore template files
 temp.*
+
+email.html
