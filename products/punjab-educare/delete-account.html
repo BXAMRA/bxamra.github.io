@@ -20,15 +20,6 @@
       text-align: center;
     }
 
-    .form-container {
-      max-width: 700px;
-      margin: 2rem auto 4rem;
-      background: white;
-      padding: 3rem;
-      border-radius: 15px;
-      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-    }
-
     .btn-submit {
       background-color: #764ba2;
       border: none;
@@ -107,135 +98,133 @@
 
   <!-- Main Content -->
   <main class="container">
-    <div class="form-container">
-      <!-- Important Information -->
-      <div class="info-box">
-        <h5 class="fw-bold mb-3">
-          <i class="bi bi-exclamation-triangle-fill me-2"></i>
-          Important Information
-        </h5>
-        <ul class="mb-0">
-          <li><strong>Only teacher accounts</strong> can be deleted (students don't have accounts)</li>
-          <li><strong>Processing time:</strong> Up to 4 weeks after email verification</li>
-          <li><strong>Educational content:</strong> Submitted questions that were approved will remain in our database
-          </li>
-          <li><strong>Irreversible:</strong> Account deletion cannot be undone</li>
-        </ul>
-      </div>
+    <!-- Important Information -->
+    <div class="info-box">
+      <h5 class="fw-bold mb-3">
+        <i class="bi bi-exclamation-triangle-fill me-2"></i>
+        Important Information
+      </h5>
+      <ul class="mb-0">
+        <li><strong>Only teacher accounts</strong> can be deleted (students don't have accounts)</li>
+        <li><strong>Processing time:</strong> Up to 4 weeks after email verification</li>
+        <li><strong>Educational content:</strong> Submitted questions that were approved will remain in our database
+        </li>
+        <li><strong>Irreversible:</strong> Account deletion cannot be undone</li>
+      </ul>
+    </div>
 
-      <h4 class="mb-4 text-center">Choose Your Preferred Method</h4>
+    <h4 class="mb-4 text-center">Choose Your Preferred Method</h4>
 
-      <!-- Method 1: Web Form -->
-      <div class="method-card">
-        <div class="row align-items-center">
-          <div class="col-md-2 text-center mb-3 mb-md-0">
-            <i class="bi bi-clipboard-check icon-large"></i>
-          </div>
-          <div class="col-md-10">
-            <h5 class="fw-bold">Method 1: Web Form</h5>
-            <p class="mb-0">Fill out the form below for a quick and secure deletion request.</p>
-          </div>
+    <!-- Method 1: Web Form -->
+    <div class="method-card">
+      <div class="row align-items-center">
+        <div class="col-md-2 text-center mb-3 mb-md-0">
+          <i class="bi bi-clipboard-check icon-large"></i>
+        </div>
+        <div class="col-md-10">
+          <h5 class="fw-bold">Method 1: Web Form</h5>
+          <p class="mb-0">Fill out the form below for a quick and secure deletion request.</p>
         </div>
       </div>
+    </div>
 
-      <!-- Formspree Form -->
-      <form action="https://formspree.io/f/xdklpgdr" method="POST" class="border rounded p-4 bg-light">
-        <div class="mb-3">
-          <label for="email" class="form-label fw-bold">
-            <i class="bi bi-envelope me-2"></i>
-            Registered Email Address *
-          </label>
-          <input type="email" class="form-control form-control-lg" id="email" name="email"
-            placeholder="Enter your registered email address" required />
-          <div class="form-text">This must be the same email you used to register your teacher account.</div>
-        </div>
-
-        <div class="mb-3">
-          <label for="fullName" class="form-label fw-bold">
-            <i class="bi bi-person me-2"></i>
-            Full Name *
-          </label>
-          <input type="text" class="form-control form-control-lg" id="fullName" name="fullName"
-            placeholder="Enter your full name as registered" required />
-        </div>
-
-        <div class="mb-3">
-          <label for="reason" class="form-label fw-bold">
-            <i class="bi bi-chat-text me-2"></i>
-            Reason for Deletion (Optional)
-          </label>
-          <textarea class="form-control" id="reason" name="reason" rows="4"
-            placeholder="Let us know why you're deleting your account (optional)"></textarea>
-        </div>
-
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="confirmDeletion" required>
-          <label class="form-check-label" for="confirmDeletion">
-            I understand that this action is irreversible and my account data will be permanently deleted within 4
-            weeks.
-          </label>
-        </div>
-
-        <!-- Hidden fields for Formspree -->
-        <input type="hidden" name="_subject" value="Punjab Educare - Account Deletion Request">
-        <input type="hidden" name="_captcha" value="false">
-
-        <button type="submit" class="btn btn-submit text-white w-100 btn-lg">
-          <i class="bi bi-send me-2"></i>
-          Submit Deletion Request
-        </button>
-      </form>
-
-      <div id="responseMessage" class="mt-4"></div>
-
-      <!-- Method 2: Email -->
-      <div class="method-card mt-4">
-        <div class="row align-items-center">
-          <div class="col-md-2 text-center mb-3 mb-md-0">
-            <i class="bi bi-envelope icon-large"></i>
-          </div>
-          <div class="col-md-10">
-            <h5 class="fw-bold">Method 2: Direct Email</h5>
-            <p class="mb-2">Send a deletion request email directly to our accounts team:</p>
-            <p class="mb-2">
-              <strong>Email:</strong>
-              <a
-                href="mailto:accounts@punjabeducare.co.in?subject=Account Deletion Request&body=Please delete my Punjab Educare teacher account.%0D%0A%0D%0ARegistered Email: [Enter your email]%0D%0AFull Name: [Enter your name]%0D%0AReason (optional): [Enter reason]">
-                accounts@punjabeducare.co.in
-              </a>
-            </p>
-            <p class="text-muted small mb-0">
-              <strong>Important:</strong> Make sure to send the email from your registered email address for
-              verification.
-            </p>
-          </div>
-        </div>
+    <!-- Formspree Form -->
+    <form action="https://formspree.io/f/xdklpgdr" method="POST" class="border rounded p-4 bg-light">
+      <div class="mb-3">
+        <label for="email" class="form-label fw-bold">
+          <i class="bi bi-envelope me-2"></i>
+          Registered Email Address *
+        </label>
+        <input type="email" class="form-control form-control-lg" id="email" name="email"
+          placeholder="Enter your registered email address" required />
+        <div class="form-text">This must be the same email you used to register your teacher account.</div>
       </div>
 
-      <!-- Processing Information -->
-      <div class="processing-info">
-        <h6 class="fw-bold">
-          <i class="bi bi-clock me-2"></i>
-          What Happens Next?
-        </h6>
-        <ol class="mb-0">
-          <li>We verify your identity using your registered email address</li>
-          <li>You'll receive a confirmation email acknowledging your request</li>
-          <li>Your account and personal data will be deleted within 4 weeks</li>
-          <li>You'll receive a final confirmation when deletion is complete</li>
-        </ol>
+      <div class="mb-3">
+        <label for="fullName" class="form-label fw-bold">
+          <i class="bi bi-person me-2"></i>
+          Full Name *
+        </label>
+        <input type="text" class="form-control form-control-lg" id="fullName" name="fullName"
+          placeholder="Enter your full name as registered" required />
       </div>
 
-      <!-- Contact Support -->
-      <div class="text-center mt-4 pt-3 border-top">
-        <p class="text-muted">
-          Need help or have questions?
-          <a href="mailto:support@punjabeducare.co.in" class="text-decoration-none">
-            <i class="bi bi-headset me-1"></i>
-            Contact Support
-          </a>
-        </p>
+      <div class="mb-3">
+        <label for="reason" class="form-label fw-bold">
+          <i class="bi bi-chat-text me-2"></i>
+          Reason for Deletion (Optional)
+        </label>
+        <textarea class="form-control" id="reason" name="reason" rows="4"
+          placeholder="Let us know why you're deleting your account (optional)"></textarea>
       </div>
+
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="confirmDeletion" required>
+        <label class="form-check-label" for="confirmDeletion">
+          I understand that this action is irreversible and my account data will be permanently deleted within 4
+          weeks.
+        </label>
+      </div>
+
+      <!-- Hidden fields for Formspree -->
+      <input type="hidden" name="_subject" value="Punjab Educare - Account Deletion Request">
+      <input type="hidden" name="_captcha" value="false">
+
+      <button type="submit" class="btn btn-submit text-white w-100 btn-lg">
+        <i class="bi bi-send me-2"></i>
+        Submit Deletion Request
+      </button>
+    </form>
+
+    <div id="responseMessage" class="mt-4"></div>
+
+    <!-- Method 2: Email -->
+    <div class="method-card mt-4">
+      <div class="row align-items-center">
+        <div class="col-md-2 text-center mb-3 mb-md-0">
+          <i class="bi bi-envelope icon-large"></i>
+        </div>
+        <div class="col-md-10">
+          <h5 class="fw-bold">Method 2: Direct Email</h5>
+          <p class="mb-2">Send a deletion request email directly to our accounts team:</p>
+          <p class="mb-2">
+            <strong>Email:</strong>
+            <a
+              href="mailto:accounts@punjabeducare.co.in?subject=Account Deletion Request&body=Please delete my Punjab Educare teacher account.%0D%0A%0D%0ARegistered Email: [Enter your email]%0D%0AFull Name: [Enter your name]%0D%0AReason (optional): [Enter reason]">
+              accounts@punjabeducare.co.in
+            </a>
+          </p>
+          <p class="text-muted small mb-0">
+            <strong>Important:</strong> Make sure to send the email from your registered email address for
+            verification.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Processing Information -->
+    <div class="processing-info">
+      <h6 class="fw-bold">
+        <i class="bi bi-clock me-2"></i>
+        What Happens Next?
+      </h6>
+      <ol class="mb-0">
+        <li>We verify your identity using your registered email address</li>
+        <li>You'll receive a confirmation email acknowledging your request</li>
+        <li>Your account and personal data will be deleted within 4 weeks</li>
+        <li>You'll receive a final confirmation when deletion is complete</li>
+      </ol>
+    </div>
+
+    <!-- Contact Support -->
+    <div class="text-center mt-4 pt-3 border-top">
+      <p class="text-muted">
+        Need help or have questions?
+        <a href="mailto:support@punjabeducare.co.in" class="text-decoration-none">
+          <i class="bi bi-headset me-1"></i>
+          Contact Support
+        </a>
+      </p>
     </div>
   </main>
 
