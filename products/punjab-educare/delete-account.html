@@ -5,92 +5,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Delete Account Request - Punjab Educare</title>
+
+  <!-- Favicon Links -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="../../assets/favicon/site.webmanifest" />
+
   <link href="../../assets/css/bootstrap.css" rel="stylesheet" />
   <link href="../../assets/css/bootstrap-icons.css" rel="stylesheet" />
-  <style>
-    body {
-      background: #f8f9fa;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    .header {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      padding: 3rem 0;
-      text-align: center;
-    }
-
-    .btn-submit {
-      background-color: #764ba2;
-      border: none;
-      padding: 12px 30px;
-      font-weight: 500;
-      transition: all 0.3s ease;
-    }
-
-    .btn-submit:hover {
-      background-color: #5a3580;
-      transform: translateY(-2px);
-      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    }
-
-    .info-box {
-      background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
-      border-radius: 10px;
-      padding: 1.5rem;
-      margin: 1.5rem 0;
-      border-left: 4px solid #ff6b6b;
-    }
-
-    .method-card {
-      border: 1px solid #dee2e6;
-      border-radius: 10px;
-      padding: 1.5rem;
-      margin: 1rem 0;
-      transition: all 0.3s ease;
-    }
-
-    .method-card:hover {
-      border-color: #667eea;
-      box-shadow: 0 0.25rem 0.5rem rgba(102, 126, 234, 0.1);
-    }
-
-    .icon-large {
-      font-size: 2rem;
-      color: #667eea;
-    }
-
-    .processing-info {
-      background-color: #e3f2fd;
-      border: 1px solid #2196f3;
-      border-radius: 8px;
-      padding: 1rem;
-      margin: 1rem 0;
-    }
-  </style>
 </head>
 
 <body>
-  <!-- Navigation Breadcrumb -->
-  <nav class="navbar navbar-light bg-white border-bottom">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg shadow-sm">
     <div class="container">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb mb-0">
-          <li class="breadcrumb-item">
-            <a href="../" class="text-decoration-none">
-              <i class="bi bi-house-door me-1"></i>Punjab Educare
-            </a>
-          </li>
-          <li class="breadcrumb-item active" aria-current="page">Delete Account</li>
-        </ol>
-      </nav>
+      <a class="navbar-brand fw-bold" href="/">
+        <img src="../../assets/images/dev-logo.png" alt="Developer Logo" height="35" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html">Punjab Educare</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Account
+              Deletion</a></li>
+          <li class="nav-item"><a class="nav-link" href="./privacy-policy.html">Privacy
+              Policy</a></li>
+          <li class="nav-item"><a class="nav-link"
+              href="./intellectual-property-collaboration-notice.html">Collaboration
+              Notice</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 
   <!-- Header -->
-  <header class="header">
+  <header class="bg-body-secondary py-5 text-center mb-4">
     <div class="container">
-      <i class="bi bi-person-x mb-3" style="font-size: 3rem;"></i>
+      <i class="bi bi-person-x mb-3 fs-1"></i>
       <h1 class="display-5 fw-bold">Delete Account Request</h1>
       <p class="lead">Punjab Educare Teacher Account Deletion</p>
     </div>
@@ -99,10 +55,9 @@
   <!-- Main Content -->
   <main class="container">
     <!-- Important Information -->
-    <div class="info-box">
+    <div class="alert alert-warning rounded-3" role="alert">
       <h5 class="fw-bold mb-3">
-        <i class="bi bi-exclamation-triangle-fill me-2"></i>
-        Important Information
+        <i class="bi bi-exclamation-triangle-fill me-2"></i>Important Information
       </h5>
       <ul class="mb-0">
         <li><strong>Only teacher accounts</strong> can be deleted (students don't have accounts)</li>
@@ -116,24 +71,25 @@
     <h4 class="mb-4 text-center">Choose Your Preferred Method</h4>
 
     <!-- Method 1: Web Form -->
-    <div class="method-card">
-      <div class="row align-items-center">
-        <div class="col-md-2 text-center mb-3 mb-md-0">
-          <i class="bi bi-clipboard-check icon-large"></i>
-        </div>
-        <div class="col-md-10">
-          <h5 class="fw-bold">Method 1: Web Form</h5>
-          <p class="mb-0">Fill out the form below for a quick and secure deletion request.</p>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-2 text-center mb-3 mb-md-0">
+            <i class="bi bi-clipboard-check fs-2 text-primary"></i>
+          </div>
+          <div class="col-md-10">
+            <h5 class="fw-bold">Method 1: Web Form</h5>
+            <p class="mb-0">Fill out the form below for a quick and secure deletion request.</p>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Formspree Form -->
-    <form action="https://formspree.io/f/xdklpgdr" method="POST" class="border rounded p-4 bg-light">
+    <form id="deleteAccountForm" action="https://formspree.io/f/xdklpgdr" method="POST" class="border rounded p-4 mb-4">
       <div class="mb-3">
         <label for="email" class="form-label fw-bold">
-          <i class="bi bi-envelope me-2"></i>
-          Registered Email Address *
+          <i class="bi bi-envelope me-2"></i>Registered Email Address *
         </label>
         <input type="email" class="form-control form-control-lg" id="email" name="email"
           placeholder="Enter your registered email address" required />
@@ -142,8 +98,7 @@
 
       <div class="mb-3">
         <label for="fullName" class="form-label fw-bold">
-          <i class="bi bi-person me-2"></i>
-          Full Name *
+          <i class="bi bi-person me-2"></i>Full Name *
         </label>
         <input type="text" class="form-control form-control-lg" id="fullName" name="fullName"
           placeholder="Enter your full name as registered" required />
@@ -151,62 +106,60 @@
 
       <div class="mb-3">
         <label for="reason" class="form-label fw-bold">
-          <i class="bi bi-chat-text me-2"></i>
-          Reason for Deletion (Optional)
+          <i class="bi bi-chat-text me-2"></i>Reason for Deletion (Optional)
         </label>
         <textarea class="form-control" id="reason" name="reason" rows="4"
           placeholder="Let us know why you're deleting your account (optional)"></textarea>
       </div>
 
       <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="confirmDeletion" required>
+        <input type="checkbox" class="form-check-input" id="confirmDeletion" required />
         <label class="form-check-label" for="confirmDeletion">
-          I understand that this action is irreversible and my account data will be permanently deleted within 4
-          weeks.
+          I understand that this action is irreversible and my account data will be permanently deleted within 4 weeks.
         </label>
       </div>
 
       <!-- Hidden fields for Formspree -->
-      <input type="hidden" name="_subject" value="Punjab Educare - Account Deletion Request">
-      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="Punjab Educare - Account Deletion Request" />
+      <input type="hidden" name="_captcha" value="false" />
 
-      <button type="submit" class="btn btn-submit text-white w-100 btn-lg">
-        <i class="bi bi-send me-2"></i>
-        Submit Deletion Request
+      <button type="submit" class="btn btn-primary w-100 btn-lg text-white">
+        <i class="bi bi-send me-2"></i>Submit Deletion Request
       </button>
     </form>
 
     <div id="responseMessage" class="mt-4"></div>
 
     <!-- Method 2: Email -->
-    <div class="method-card mt-4">
-      <div class="row align-items-center">
-        <div class="col-md-2 text-center mb-3 mb-md-0">
-          <i class="bi bi-envelope icon-large"></i>
-        </div>
-        <div class="col-md-10">
-          <h5 class="fw-bold">Method 2: Direct Email</h5>
-          <p class="mb-2">Send a deletion request email directly to our accounts team:</p>
-          <p class="mb-2">
-            <strong>Email:</strong>
-            <a
-              href="mailto:accounts@punjabeducare.co.in?subject=Account Deletion Request&body=Please delete my Punjab Educare teacher account.%0D%0A%0D%0ARegistered Email: [Enter your email]%0D%0AFull Name: [Enter your name]%0D%0AReason (optional): [Enter reason]">
-              accounts@punjabeducare.co.in
-            </a>
-          </p>
-          <p class="text-muted small mb-0">
-            <strong>Important:</strong> Make sure to send the email from your registered email address for
-            verification.
-          </p>
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col-md-2 text-center mb-3 mb-md-0">
+            <i class="bi bi-envelope fs-2 text-primary"></i>
+          </div>
+          <div class="col-md-10">
+            <h5 class="fw-bold">Method 2: Direct Email</h5>
+            <p class="mb-2">Send a deletion request email directly to our accounts team:</p>
+            <p class="mb-2">
+              <strong>Email:</strong>
+              <a
+                href="mailto:accounts@punjabeducare.co.in?subject=Account Deletion Request&body=Please delete my Punjab Educare teacher account.%0D%0A%0D%0ARegistered Email: [Enter your email]%0D%0AFull Name: [Enter your name]%0D%0AReason (optional): [Enter reason]">
+                accounts@punjabeducare.co.in
+              </a>
+            </p>
+            <p class="text-muted small mb-0">
+              <strong>Important:</strong> Make sure to send the email from your registered email address for
+              verification.
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Processing Information -->
-    <div class="processing-info">
-      <h6 class="fw-bold">
-        <i class="bi bi-clock me-2"></i>
-        What Happens Next?
+    <div class="alert alert-info rounded-3 mt-4">
+      <h6 class="fw-bold mb-3">
+        <i class="bi bi-clock me-2"></i>What Happens Next?
       </h6>
       <ol class="mb-0">
         <li>We verify your identity using your registered email address</li>
@@ -221,26 +174,25 @@
       <p class="text-muted">
         Need help or have questions?
         <a href="mailto:support@punjabeducare.co.in" class="text-decoration-none">
-          <i class="bi bi-headset me-1"></i>
-          Contact Support
+          <i class="bi bi-headset me-1"></i>Contact Support
         </a>
       </p>
     </div>
   </main>
 
   <!-- Footer -->
-  <footer class="bg-white border-top py-4 mt-5">
-    <div class="container text-center">
-      <p class="mb-2 text-muted">© 2025 BXAMRA - Punjab Educare. All rights reserved.</p>
-      <div>
-        <a href="./privacy-policy/index.html" class="text-muted text-decoration-none me-3">Privacy Policy</a>
-        <a href="../../index.html" class="text-muted text-decoration-none">Back to HOME</a>
+  <footer class="border-top py-4 mt-5">
+    <div class="container">
+      <div class="row g-1">
+        <span class="mb-0 text-muted col-auto">&copy; 2025 BXAMRA - Punjab Educare.</span>
+        <span class="mb-0 text-muted col-auto">All rights reserved.</span>
       </div>
     </div>
   </footer>
 
   <!-- JavaScript -->
   <script src="../../assets/js/bootstrap-bundle.js"></script>
+  <script src="../../assets/js/theme-switcher.js" defer></script>
   <script>
     // Form submission handling
     const form = document.getElementById('deleteAccountForm');
@@ -260,7 +212,7 @@
         const response = await fetch(form.action, {
           method: 'POST',
           headers: {
-            'Accept': 'application/json'
+            Accept: 'application/json'
           },
           body: formData
         });
@@ -270,7 +222,7 @@
           responseMessage.innerHTML = `
             <div class="alert alert-success alert-dismissible fade show">
               <i class="bi bi-check-circle-fill me-2"></i>
-              <strong>Request Submitted Successfully!</strong><br>
+              <strong>Request Submitted Successfully!</strong><br />
               Your account deletion request has been received. You will receive a confirmation email shortly at your registered email address.
               <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
             </div>
@@ -282,8 +234,8 @@
         responseMessage.innerHTML = `
           <div class="alert alert-danger alert-dismissible fade show">
             <i class="bi bi-exclamation-triangle-fill me-2"></i>
-            <strong>Submission Failed!</strong><br>
-            Something went wrong. Please try again or send an email directly to 
+            <strong>Submission Failed!</strong><br />
+            Something went wrong. Please try again or send an email directly to
             <a href="mailto:accounts@punjabeducare.co.in" class="alert-link">accounts@punjabeducare.co.in</a>.
             <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
           </div>
