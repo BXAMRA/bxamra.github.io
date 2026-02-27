@@ -3,9 +3,13 @@ title: Punjab Educare
 description: Empowering Teachers & Students with Technology
 ---
 
-# Punjab Educare
-
-### Empowering Teachers & Students with Technology
+<div style="display:flex; align-items:flex-end; gap:12px;">
+  <img src="/images/punjab-educare/logo.png" alt="Punjab Educare" style="width:5rem; height:auto;">
+  <div style="display:flex; flex-direction:column;">
+    <h1 style="margin:0; line-height:1;">Punjab Educare</h1>
+    <h4 style="margin:4px 0 0; line-height:1.2;">Empowering Teachers & Students with Technology</h4>
+  </div>
+</div>
 
 ## Features
 
@@ -36,10 +40,10 @@ Ready to transform education?
 
 <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap">
   <a href="https://play.google.com/store/apps/details?id=com.deepakkumar.PunjabEducare" target="_blank">
-    <img src="/icons/google-play-badge.png" alt="" width="150">
+    <img src="/images/icons/google-play-badge.png" alt="" width="150">
   </a>
   
   <a href="https://www.indusappstore.com/apps/education/punjab-educare/com.deepakkumar.PunjabEducare?page=details&id=com.deepakkumar.PunjabEducare" target="_blank">
-    <img src="/icons/indus-badge.png" alt="" width="150">
+    <img src="/images/icons/indus-badge.png" alt="" width="150">
   </a>
 </div>

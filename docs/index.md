@@ -4,8 +4,11 @@ description: Product Docs
 
 hero:
   name: "BXAMRA"
-  text: "Product Docs"
+  text: "My Products' Docs"
   tagline: "Downloads, release notes, and privacy/account policies for my apps."
+  image:
+    src: /images/icons/docs.png
+    alt: Documentation Icon
   actions:
     - theme: brand
       text: Punjab Educare →
@@ -15,7 +18,10 @@ hero:
       link: /whatszip-viewer/
 
 features:
-  - icon: 🎓
+  - icon:
+      src: /images/punjab-educare/logo.png
+      alt: Punjab Educare
+      width: 60
     title: Punjab Educare
     details: Education platform apps (Flutter mobile, Tauri/Vue desktop) backed by a Laravel Octane API.
     link: /punjab-educare/

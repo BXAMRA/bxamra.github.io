@@ -9,6 +9,7 @@
 /* Navbar brand/title */
 .VPNavBarTitle .title {
   font-family: "Edo", var(--vp-font-family-base);
+  font-size: 1.3rem;
 }
 
 /* Optional: make hero name/title match the brand too */

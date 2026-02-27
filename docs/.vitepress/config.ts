@@ -20,7 +20,7 @@ export default defineConfig({
 
     nav: [
       { text: "Home", link: "/" },
-      { text: "Portfolio", link: "https://bxamra.github.io" },
+      { text: "Portfolio", link: "https://bxamra.github.io", noIcon: true },
       {
         text: "Products",
         items: [
@@ -35,18 +35,23 @@ export default defineConfig({
         {
           text: "Punjab Educare",
           items: [
-            { text: "General", link: "/punjab-educare/" },
+            { text: "Overview", link: "/punjab-educare/" },
             {
               text: "Account Deletion",
               link: "/punjab-educare/delete-account",
             },
             {
-              text: "Privacy Policy",
-              link: "/punjab-educare/privacy-policy",
-            },
-            {
               text: "Intellectual Property & Collaboration Notice",
               link: "/punjab-educare/intellectual-property-collaboration-notice",
+            },
+          ],
+        },
+        {
+          text: "Android App",
+          items: [
+            {
+              text: "Privacy Policy",
+              link: "/punjab-educare/privacy-policy",
             },
           ],
         },
@@ -64,8 +69,11 @@ export default defineConfig({
     ],
 
     footer: {
-      // message: "Really good and fully featured Vue Tauri Starter template",
+      message:
+        '<a href="https://www.flaticon.com/free-icons/google-docs" title="document icons" target="_blank" rel="noreferrer">Document icons created by Vectors Tank - Flaticon</a>',
       copyright: `© ${year} BXAMRA. All rights reserved`,
+
+      // <a href="https://www.flaticon.com/free-icons/google-docs" title="google docs icons">Google docs icons created by Vectors Tank - Flaticon</a>
     },
   },
 });
