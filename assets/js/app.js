@@ -28,7 +28,7 @@ function initLoader() {
 function startInitialAnimations() {
   // Add animation classes to elements
   const elementsToAnimate = document.querySelectorAll(
-    ".hero-subtitle, .hero-description, .hero-buttons"
+    ".hero-subtitle, .hero-description, .hero-buttons",
   );
   elementsToAnimate.forEach((el, index) => {
     setTimeout(() => {
@@ -46,6 +46,11 @@ function initNavigation() {
   // Smooth scrolling for navigation links
   navLinks.forEach((link) => {
     link.addEventListener("click", function (e) {
+      // Only hijack in-page anchor links
+      if (!href || !href.startsWith("#")) {
+        return; // let the browser navigate normally
+      }
+
       e.preventDefault();
       e.stopPropagation();
 
@@ -104,7 +109,7 @@ function initNavigation() {
 
       // Update active nav link based on scroll position
       updateActiveNavLinkOnScroll();
-    }, 100)
+    }, 100),
   );
 
   // Initialize active nav link
@@ -157,7 +162,7 @@ function updateActiveNavLink(activeId) {
 function initBootstrapComponents() {
   // Initialize tooltips if any
   const tooltipTriggerList = [].slice.call(
-    document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    document.querySelectorAll('[data-bs-toggle="tooltip"]'),
   );
   tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl);
@@ -165,7 +170,7 @@ function initBootstrapComponents() {
 
   // Initialize popovers if any
   const popoverTriggerList = [].slice.call(
-    document.querySelectorAll('[data-bs-toggle="popover"]')
+    document.querySelectorAll('[data-bs-toggle="popover"]'),
   );
   popoverTriggerList.map(function (popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl);
@@ -206,7 +211,7 @@ function initTypingAnimation() {
     // Position cursor after the current text
     const textWidth = getTextWidth(
       currentText,
-      getComputedStyle(typingTextElement)
+      getComputedStyle(typingTextElement),
     );
     typingCursor.style.left = textWidth + "px";
 
@@ -310,7 +315,7 @@ function initScrollAnimations() {
 
   // Observe elements for scroll animations
   const elementsToObserve = document.querySelectorAll(
-    ".section-title, .project-card, .service-card, .contact-item, .skill-item, .education-item"
+    ".section-title, .project-card, .service-card, .contact-item, .skill-item, .education-item",
   );
   elementsToObserve.forEach((element) => {
     observer.observe(element);
@@ -378,7 +383,7 @@ function initContactForm() {
         if (res.ok) {
           showNotification(
             "Message sent successfully! I'll get back to you soon.",
-            "success"
+            "success",
           );
           this.reset();
         } else {
@@ -495,7 +500,7 @@ function initParticleAnimation() {
         const yPos = -(scrollTop * speed);
         particle.style.transform += ` translateY(${yPos}px)`;
       });
-    }, 16)
+    }, 16),
   ); // ~60fps
 }
 
@@ -655,24 +660,24 @@ additionalStyles.textContent = `
             box-shadow: 0 0 25px rgba(29, 191, 115, 0.25);
         }
     }
-    
+
     .education-item {
         opacity: 0;
         transform: translateX(-30px);
         transition: all 0.6s ease-out;
     }
-    
+
     .spinner-border-sm {
         width: 1rem;
         height: 1rem;
         border-width: 0.1em;
     }
-    
+
     .alert {
         border: none;
         font-weight: 500;
     }
-    
+
     /* Enhanced mobile navbar */
     @media (max-width: 991.98px) {
         .navbar-collapse {
@@ -683,30 +688,30 @@ additionalStyles.textContent = `
             border: 1px solid var(--bs-border-color);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
         }
-        
+
         .navbar-nav .nav-link {
             padding: 0.75rem 1rem;
             border-bottom: 1px solid rgba(94, 82, 64, 0.1);
             text-align: center;
         }
-        
+
         .navbar-nav .nav-link:last-child {
             border-bottom: none;
         }
-        
+
         .navbar-nav .nav-link:hover {
             background: rgba(50, 128, 141, 0.1);
             border-radius: 4px;
         }
     }
-    
+
     /* Improved typing container positioning */
     .typing-container {
         position: relative;
         display: inline-block;
         height: 1.2em;
     }
-    
+
     .typing-cursor {
         position: absolute;
         top: 0;
@@ -729,7 +734,7 @@ if (lazyElements.length > 0) {
         }
       });
     },
-    { threshold: 0.1 }
+    { threshold: 0.1 },
   );
 
   lazyElements.forEach((element) => {
@@ -755,7 +760,7 @@ window.addEventListener(
       e.target.style.display = "none";
     }
   },
-  true
+  true,
 );
 
 // Initialize smooth reveal animations
@@ -771,7 +776,7 @@ function initRevealAnimations() {
         }
       });
     },
-    { threshold: 0.15 }
+    { threshold: 0.15 },
   );
 
   revealElements.forEach((element) => {
