@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Edo";
+  src: url("/fonts/edo.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Navbar brand/title */
+.VPNavBarTitle .title {
+  font-family: "Edo", var(--vp-font-family-base);
+}
+
+/* Optional: make hero name/title match the brand too */
+.VPHero .name {
+  font-family: "Edo", var(--vp-font-family-base);
+}
