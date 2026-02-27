@@ -11,6 +11,8 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
 
+  sitemap: { hostname: "https://bxamra.github.io/products/" },
+
   themeConfig: {
     search: {
       provider: "local",
@@ -33,7 +35,7 @@ export default defineConfig({
         {
           text: "Punjab Educare",
           items: [
-            { text: "Home", link: "/punjab-educare/" },
+            { text: "General", link: "/punjab-educare/" },
             {
               text: "Account Deletion",
               link: "/punjab-educare/delete-account",
@@ -41,6 +43,10 @@ export default defineConfig({
             {
               text: "Privacy Policy",
               link: "/punjab-educare/privacy-policy",
+            },
+            {
+              text: "Intellectual Property & Collaboration Notice",
+              link: "/punjab-educare/intellectual-property-collaboration-notice",
             },
           ],
         },

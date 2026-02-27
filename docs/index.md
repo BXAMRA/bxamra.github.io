@@ -1,5 +1,6 @@
 ---
 layout: home
+description: Product Docs
 
 hero:
   name: "BXAMRA"
