@@ -54,9 +54,13 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "fiverr", link: "https://github.com/bxamra" },
       { icon: "instagram", link: "https://www.instagram.com/jas.bxamra" },
       { icon: "github", link: "https://github.com/bxamra" },
+      {
+        icon: "fiverr",
+        link: "https://www.fiverr.com/bxamra",
+        ariaLabel: "Fiverr",
+      },
     ],
 
     footer: {
