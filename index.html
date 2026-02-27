@@ -1,581 +1,825 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="google-site-verification"
+      content="XqIjF2miVsD-BCmmL02yEaqHBkuJp-g62MouwToddTc"
+    />
 
-  <meta name="google-site-verification" content="XqIjF2miVsD-BCmmL02yEaqHBkuJp-g62MouwToddTc" />
+    <title>BXAMRA - Fullstack Developer Portfolio</title>
 
-  <title>BXAMRA - Fullstack Developer Portfolio</title>
+    <!-- Favicon Links -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 
-  <!-- Favicon Links -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-  <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <!-- Bootstrap CSS -->
+    <link href="./assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="./assets/css/bootstrap-icons.css" rel="stylesheet" />
 
-  <!-- Bootstrap CSS -->
-  <link href="./assets/css/bootstrap.css" rel="stylesheet">
-  <link href="./assets/css/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+  <body data-color-scheme="dark">
+    <!-- Loading Animation -->
+    <div class="loader">
+      <img
+        src="./assets/images/dev-logo.png"
+        alt="BXAMRA"
+        class="loader-dev-logo"
+      />
+      <div class="loader-bar"></div>
+    </div>
 
-<body data-color-scheme="dark">
-  <!-- Loading Animation -->
-  <div class="loader">
-    <img src="./assets/images/dev-logo.png" alt="BXAMRA" class="loader-dev-logo">
-    <div class="loader-bar"></div>
-  </div>
+    <!-- Floating Background Elements -->
+    <div class="background-particles">
+      <div class="particle particle-1"></div>
+      <div class="particle particle-2"></div>
+      <div class="particle particle-3"></div>
+      <div class="particle particle-4"></div>
+      <div class="particle particle-5"></div>
+    </div>
 
-  <!-- Floating Background Elements -->
-  <div class="background-particles">
-    <div class="particle particle-1"></div>
-    <div class="particle particle-2"></div>
-    <div class="particle particle-3"></div>
-    <div class="particle particle-4"></div>
-    <div class="particle particle-5"></div>
+    <!-- Header -->
+    <header class="header fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand m-0 p-0" href="#home">
+            <img
+              src="./assets/images/dev-logo.png"
+              alt="BXAMRA"
+              class="nav-dev-logo m-0 p-0"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/products/" target="_blank">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fiverr">Hire Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-  </div>
-
-  <!-- Header -->
-  <header class="header fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center min-vh-100">
       <div class="container">
-        <a class="navbar-brand m-0 p-0" href="#home">
-          <img src="./assets/images/dev-logo.png" alt="BXAMRA" class="nav-dev-logo m-0 p-0">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#fiverr">Hire Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section id="home" class="hero d-flex align-items-center min-vh-100">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 mb-sm-4 mb-lg-0">
-          <div class="hero-content">
-            <h1 class="hero-title">
-              <div class="typing-container">
-                <span class="typing-text">BXAMRA</span>
-                <span class="typing-cursor">|</span>
-              </div>
-            </h1>
-            <h2 class="hero-subtitle">Fullstack Developer</h2>
-            <p class="hero-description">Passionate fullstack developer with expertise in modern web technologies. I
-              create seamless user experiences with clean, efficient code.</p>
-            <div class="hero-buttons d-flex gap-3 flex-wrap">
-              <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
-              <a href="#fiverr" class="btn btn-outline-primary btn-lg">Hire Me Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="hero-visual">
-            <div class="code-animation p-4">
-              <div class="code-line">
-                <span class="code-keyword">const</span>
-                <span class="code-variable">developer</span>
-                <span class="code-operator">=</span>
-                <span class="code-string">"BXAMRA"</span>
-              </div>
-              <div class="code-line">
-                <span class="code-keyword">function</span>
-                <span class="code-function">buildAmazingApps</span>
-                <span class="code-bracket">()</span>
-                <span class="code-bracket">{</span>
-              </div>
-              <div class="code-line ms-3">
-                <span class="code-keyword">return</span>
-                <span class="code-string">"Innovation"</span>
-              </div>
-              <div class="code-line">
-                <span class="code-bracket">}</span>
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-sm-4 mb-lg-0">
+            <div class="hero-content">
+              <h1 class="hero-title">
+                <div class="typing-container">
+                  <span class="typing-text">BXAMRA</span>
+                  <span class="typing-cursor">|</span>
+                </div>
+              </h1>
+              <h2 class="hero-subtitle">Fullstack Developer</h2>
+              <p class="hero-description">
+                Passionate fullstack developer with expertise in modern web
+                technologies. I create seamless user experiences with clean,
+                efficient code.
+              </p>
+              <div class="hero-buttons d-flex gap-3 flex-wrap">
+                <a href="#projects" class="btn btn-primary btn-lg"
+                  >View My Work</a
+                >
+                <a href="#fiverr" class="btn btn-outline-primary btn-lg"
+                  >Hire Me Now</a
+                >
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="about py-5">
-    <div class="container">
-      <h2 class="section-title text-center mb-5">About Me</h2>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="about-text">
-            <h3 class="about-name mb-3">JASAMRIT SINGH BHAMRA</h3>
-            <p class="mb-4">A crazy IT Professional hitting keyboard keys, messing around with lines of code in
-              production of the best future ready solutions in the industry.</p>
-
-            <!-- Education Timeline -->
-            <h4 class="mb-3">Education</h4>
-            <div class="education-timeline">
-              <div class="education-item mb-3">
-                <div class="d-flex justify-content-between align-items-start">
-                  <div>
-                    <h5 class="mb-1">Software Systems Development</h5>
-                    <p class="mb-0 text-secondary">British Columbia Institute of Technology</p>
-                  </div>
-                  <span class="badge bg-primary">2019</span>
+          <div class="col-lg-6">
+            <div class="hero-visual">
+              <div class="code-animation p-4">
+                <div class="code-line">
+                  <span class="code-keyword">const</span>
+                  <span class="code-variable">developer</span>
+                  <span class="code-operator">=</span>
+                  <span class="code-string">"BXAMRA"</span>
                 </div>
-              </div>
-              <div class="education-item mb-3">
-                <div class="d-flex justify-content-between align-items-start">
-                  <div>
-                    <h5 class="mb-1">Associate of Computer Science</h5>
-                    <p class="mb-0 text-secondary">Langara College</p>
-                  </div>
-                  <span class="badge bg-primary">2018</span>
+                <div class="code-line">
+                  <span class="code-keyword">function</span>
+                  <span class="code-function">buildAmazingApps</span>
+                  <span class="code-bracket">()</span>
+                  <span class="code-bracket">{</span>
                 </div>
-              </div>
-              <div class="education-item mb-3">
-                <div class="d-flex justify-content-between align-items-start">
-                  <div>
-                    <h5 class="mb-1">Diploma in Computers</h5>
-                    <p class="mb-0 text-secondary">Lovely Professional University</p>
-                  </div>
-                  <span class="badge bg-primary">2015</span>
+                <div class="code-line ms-3">
+                  <span class="code-keyword">return</span>
+                  <span class="code-string">"Innovation"</span>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="skills-section">
-            <h4 class="mb-3">Technical Skills</h4>
-            <div class="skills-grid">
-              <div class="skill-item mb-3" data-skill="HTML/JS/CSS">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="skill-name">HTML/JS/CSS</span>
-                  <span class="skill-percentage">95%</span>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" data-width="95"></div>
-                </div>
-              </div>
-              <div class="skill-item mb-3" data-skill="Flutter">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="skill-name">Flutter</span>
-                  <span class="skill-percentage">95%</span>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" data-width="95"></div>
-                </div>
-              </div>
-              <div class="skill-item mb-3" data-skill="Laravel">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="skill-name">Laravel</span>
-                  <span class="skill-percentage">90%</span>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" data-width="90"></div>
-                </div>
-              </div>
-              <div class="skill-item mb-3" data-skill="Android">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="skill-name">Android</span>
-                  <span class="skill-percentage">85%</span>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" data-width="85"></div>
-                </div>
-              </div>
-              <div class="skill-item mb-3" data-skill="MongoDB">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="skill-name">MongoDB</span>
-                  <span class="skill-percentage">85%</span>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" data-width="85"></div>
-                </div>
-              </div>
-              <div class="skill-item mb-3" data-skill="Node.js">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="skill-name">Node.js</span>
-                  <span class="skill-percentage">80%</span>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" data-width="80"></div>
-                </div>
-              </div>
-              <div class="skill-item mb-3" data-skill="Angular/React">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="skill-name">Angular/React</span>
-                  <span class="skill-percentage">80%</span>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" data-width="80"></div>
-                </div>
-              </div>
-              <div class="skill-item mb-3" data-skill="Swift">
-                <div class="d-flex justify-content-between align-items-center mb-2">
-                  <span class="skill-name">Swift (iOS/macOS)</span>
-                  <span class="skill-percentage">60%</span>
-                </div>
-                <div class="progress">
-                  <div class="progress-bar" data-width="60"></div>
+                <div class="code-line">
+                  <span class="code-bracket">}</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects py-5">
-    <div class="container">
-      <h2 class="section-title text-center mb-5">Featured Projects</h2>
-      <div class="row g-4">
-        <!-- Punjab Educare - Latest/First -->
-        <div class="col-lg-4 col-md-6">
-          <div class="project-card card h-100" data-status="Latest">
-            <div class="card-body">
-              <div class="d-flex justify-content-between align-items-start mb-3">
-                <h3 class="project-title card-title">Punjab Educare</h3>
-                <span class="project-status badge bg-info">Latest</span>
-              </div>
-              <p class="project-description card-text">Educational mobile app for Punjab students and teachers with
-                resources, notifications, and quiz deployment system</p>
-              <div class="project-tech mb-3">
-                <span class="badge bg-secondary me-2">Flutter</span>
-                <span class="badge bg-secondary me-2">Educational Platform</span>
-                <span class="badge bg-secondary">Quiz System</span>
-              </div>
-              <div class="project-type mb-3">
-                <i class="bi bi-phone"></i> Mobile Application
-              </div>
-              <div class="project-links">
-                <a href="./products/punjab-educare/index.html" target="_blank" class="btn btn-outline-primary btn-sm">
-                  <i class="bi bi-box-arrow-up-right me-2"></i> Explore
-                </a>
+    <!-- About Section -->
+    <section id="about" class="about py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">About Me</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="about-text">
+              <h3 class="about-name mb-3">JASAMRIT SINGH BHAMRA</h3>
+              <p class="mb-4">
+                A crazy IT Professional hitting keyboard keys, messing around
+                with lines of code in production of the best future ready
+                solutions in the industry.
+              </p>
+
+              <!-- Education Timeline -->
+              <h4 class="mb-3">Education</h4>
+              <div class="education-timeline">
+                <div class="education-item mb-3">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                      <h5 class="mb-1">Software Systems Development</h5>
+                      <p class="mb-0 text-secondary">
+                        British Columbia Institute of Technology
+                      </p>
+                    </div>
+                    <span class="badge bg-primary">2019</span>
+                  </div>
+                </div>
+                <div class="education-item mb-3">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                      <h5 class="mb-1">Associate of Computer Science</h5>
+                      <p class="mb-0 text-secondary">Langara College</p>
+                    </div>
+                    <span class="badge bg-primary">2018</span>
+                  </div>
+                </div>
+                <div class="education-item mb-3">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                      <h5 class="mb-1">Diploma in Computers</h5>
+                      <p class="mb-0 text-secondary">
+                        Lovely Professional University
+                      </p>
+                    </div>
+                    <span class="badge bg-primary">2015</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-        <!-- Ikonic MenuBar -->
-        <div class="col-lg-4 col-md-6">
-          <div class="project-card card h-100" data-status="Popular">
-            <div class="card-body">
-              <div class="d-flex justify-content-between align-items-start mb-3">
-                <h3 class="project-title card-title">Ikonic MenuBar</h3>
-                <span class="project-status badge bg-warning">Popular</span>
-              </div>
-              <p class="project-description card-text">Lightweight macOS menubar utility that displays PNG images as
-                menubar icons with right-click selection and auto-resizing</p>
-              <div class="project-tech mb-3">
-                <span class="badge bg-secondary me-2">macOS</span>
-                <span class="badge bg-secondary me-2">Swift</span>
-              </div>
-              <div class="project-type mb-3">
-                <i class="bi bi-apple"></i> macOS Utility
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/BXAMRA/ikonic-menubar/releases" target="_blank"
-                  class="btn btn-outline-primary btn-sm">
-                  <i class="bi bi-download me-2"></i> Download
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Shikamaru Project Manager -->
-        <div class="col-lg-4 col-md-6">
-          <div class="project-card card h-100" data-status="Open Source">
-            <div class="card-body">
-              <div class="d-flex justify-content-between align-items-start mb-3">
-                <h3 class="project-title card-title">Shikamaru Project Manager</h3>
-                <span class="project-status badge bg-danger">Open Source</span>
-              </div>
-              <p class="project-description card-text">Lightweight, self-hosted project and task management application
-                with Kanban-style board and nested project organization</p>
-              <div class="project-tech mb-3">
-                <span class="badge bg-secondary me-2">Node App</span>
-                <span class="badge bg-secondary me-2">Kan-Ban Style</span>
-                <span class="badge bg-secondary">Self-hosted</span>
-              </div>
-              <div class="project-type mb-3">
-                <i class="bi bi-kanban"></i> Project Management
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/BXAMRA/shikamaru" target="_blank" class="btn btn-outline-primary btn-sm">
-                  <i class="bi bi-github me-2"></i>View Code
-                </a>
+          <div class="col-lg-6">
+            <div class="skills-section">
+              <h4 class="mb-3">Technical Skills</h4>
+              <div class="skills-grid">
+                <div class="skill-item mb-3" data-skill="HTML/JS/CSS">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                  >
+                    <span class="skill-name">HTML/JS/CSS</span>
+                    <span class="skill-percentage">95%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="95"></div>
+                  </div>
+                </div>
+                <div class="skill-item mb-3" data-skill="Flutter">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                  >
+                    <span class="skill-name">Flutter</span>
+                    <span class="skill-percentage">95%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="95"></div>
+                  </div>
+                </div>
+                <div class="skill-item mb-3" data-skill="Laravel">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                  >
+                    <span class="skill-name">Laravel</span>
+                    <span class="skill-percentage">90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="90"></div>
+                  </div>
+                </div>
+                <div class="skill-item mb-3" data-skill="Android">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                  >
+                    <span class="skill-name">Android</span>
+                    <span class="skill-percentage">85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="85"></div>
+                  </div>
+                </div>
+                <div class="skill-item mb-3" data-skill="MongoDB">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                  >
+                    <span class="skill-name">MongoDB</span>
+                    <span class="skill-percentage">85%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="85"></div>
+                  </div>
+                </div>
+                <div class="skill-item mb-3" data-skill="Node.js">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                  >
+                    <span class="skill-name">Node.js</span>
+                    <span class="skill-percentage">80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="80"></div>
+                  </div>
+                </div>
+                <div class="skill-item mb-3" data-skill="Angular/React">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                  >
+                    <span class="skill-name">Angular/React</span>
+                    <span class="skill-percentage">80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="80"></div>
+                  </div>
+                </div>
+                <div class="skill-item mb-3" data-skill="Swift">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                  >
+                    <span class="skill-name">Swift (iOS/macOS)</span>
+                    <span class="skill-percentage">60%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" data-width="60"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Fiverr Section -->
-  <section id="fiverr" class="fiverr py-5 position-relative">
-    <div class="fiverr-bg"></div>
-    <div class="container position-relative">
-      <div class="text-center mb-5">
-        <h2 class="fiverr-title mb-3">Hire Me on <span class="fiverr-brand">fiverr</span></h2>
-        <p class="fiverr-subtitle">Ready to bring your ideas to life? Let's work together!</p>
-      </div>
-
-      <!-- Flutter Gigs (Top Row) -->
-      <div class="row g-4 mb-4">
-        <div class="col-lg-4">
-          <div class="service-card card h-100">
-            <div class="card-body d-flex flex-column">
-              <h3 class="service-title card-title">Flutter App Development</h3>
-              <p class="service-description card-text flex-grow-1">Create beautiful cross-platform mobile apps using
-                Flutter with smooth animations and native performance</p>
-              <ul class="service-features list-unstyled mt-auto">
-                <li><i class="bi bi-check-circle text-success me-2"></i>Cross-platform apps</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Native performance</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Modern UI/UX</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>API integration</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="service-card card h-100">
-            <div class="card-body d-flex flex-column">
-              <h3 class="service-title card-title">Flutter with Laravel Backend</h3>
-              <p class="service-description card-text flex-grow-1">Complete mobile app solution with Flutter frontend
-                and Laravel backend for scalable applications</p>
-              <ul class="service-features list-unstyled mt-auto">
-                <li><i class="bi bi-check-circle text-success me-2"></i>Full-stack solution</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Flutter + Laravel</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Database integration</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Scalable architecture</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="service-card card h-100">
-            <div class="card-body d-flex flex-column">
-              <h3 class="service-title card-title">Backend Development & APIs</h3>
-              <p class="service-description card-text flex-grow-1">Build robust backend systems and RESTful APIs using
-                Node.js, Laravel, and database integration</p>
-              <ul class="service-features list-unstyled mt-auto">
-                <li><i class="bi bi-check-circle text-success me-2"></i>RESTful API development</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Database design</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Authentication systems</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>API documentation</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Web Development Gigs (Bottom Row) -->
-      <div class="row g-4 mb-5">
-        <div class="col-lg-4">
-          <div class="service-card card h-100">
-            <div class="card-body d-flex flex-column">
-              <h3 class="service-title card-title">Web Design & UI/UX</h3>
-              <p class="service-description card-text flex-grow-1">Create modern, responsive web designs with intuitive
-                user interfaces and engaging user experiences</p>
-              <ul class="service-features list-unstyled mt-auto">
-                <li><i class="bi bi-check-circle text-success me-2"></i>Modern UI/UX design</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Responsive layouts</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>User-centered design</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Interactive prototypes</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="service-card card h-100">
-            <div class="card-body d-flex flex-column">
-              <h3 class="service-title card-title">Convert Figma PSD XD to Website</h3>
-              <p class="service-description card-text flex-grow-1">Convert designs from Figma, PSD, XD, PNG, JPG, and
-                PDF into pixel-perfect, fully responsive websites</p>
-              <ul class="service-features list-unstyled mt-auto">
-                <li><i class="bi bi-check-circle text-success me-2"></i>Pixel-perfect conversion</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Fully responsive design</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Clean code with comments</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Fast delivery</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="service-card card h-100">
-            <div class="card-body d-flex flex-column">
-              <h3 class="service-title card-title">Convert Excel Calculator to Web App</h3>
-              <p class="service-description card-text flex-grow-1">Convert Excel calculator or logic like Mortgage, EMI,
-                Tax etc into responsive web app using modern technologies</p>
-              <ul class="service-features list-unstyled mt-auto">
-                <li><i class="bi bi-check-circle text-success me-2"></i>Excel to web conversion</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Responsive design</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Easy integration</li>
-                <li><i class="bi bi-check-circle text-success me-2"></i>Custom calculators</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="text-center">
-        <a href="https://fiverr.com/bxamra" target="_blank" rel="noopener" class="btn btn-fiverr btn-lg px-5 py-3"><i
-            class="bi bi-briefcase me-2"></i>
-          Hire Me on Fiverr
-        </a>
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact py-5">
-
-    <div class="container">
-      <h2 class="section-title text-center mb-5">Get In Touch</h2>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="contact-info">
-
-            <a href="mailto:bxamra@icloud.com" class="text-decoration-none">
-              <div class="contact-item card mb-3">
-                <div class="card-body d-flex align-items-center">
-                  <div class="contact-icon me-3">
-                    <i class="bi bi-envelope-fill"></i>
-                  </div>
-                  <div class="contact-details">
-                    <h5 class="mb-1">Email</h5>
-                    bxamra@icloud.com
-                  </div>
+    <!-- Projects Section -->
+    <section id="projects" class="projects py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">Featured Projects</h2>
+        <div class="row g-4">
+          <!-- Punjab Educare - Latest/First -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card card h-100" data-status="Latest">
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between align-items-start mb-3"
+                >
+                  <h3 class="project-title card-title">Punjab Educare</h3>
+                  <span class="project-status badge bg-info">Latest</span>
+                </div>
+                <p class="project-description card-text">
+                  Educational mobile app for Punjab students and teachers with
+                  resources, notifications, and quiz deployment system
+                </p>
+                <div class="project-tech mb-3">
+                  <span class="badge bg-secondary me-2">Flutter</span>
+                  <span class="badge bg-secondary me-2"
+                    >Educational Platform</span
+                  >
+                  <span class="badge bg-secondary">Quiz System</span>
+                </div>
+                <div class="project-type mb-3">
+                  <i class="bi bi-phone"></i> Mobile Application
+                </div>
+                <div class="project-links">
+                  <a
+                    href="/products/punjab-educare/"
+                    target="_blank"
+                    class="btn btn-outline-primary btn-sm"
+                  >
+                    <i class="bi bi-box-arrow-up-right me-2"></i> Explore
+                  </a>
                 </div>
               </div>
-            </a>
-
-            <a href="https://github.com/bxamra" target="_blank" class="text-decoration-none">
-              <div class="contact-item card mb-3">
-                <div class="card-body d-flex align-items-center">
-                  <div class="contact-icon me-3">
-                    <i class="bi bi-github"></i>
-                  </div>
-                  <div class="contact-details">
-                    <h5 class="mb-1">GitHub</h5>
-                  </div>
-                </div>
-              </div>
-            </a>
-
-            <a href="https://linkedin.com/in/jassbhamra" target="_blank" class="text-decoration-none">
-              <div class="contact-item card mb-3">
-                <div class="card-body d-flex align-items-center">
-                  <div class="contact-icon me-3">
-                    <i class="bi bi-linkedin"></i>
-                  </div>
-                  <div class="contact-details">
-                    <h5 class="mb-1">LinkedIn</h5>
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a href="https://instagram.com/jas.bxamra" target="_blank" class="text-decoration-none">
-              <div class="contact-item card mb-3">
-                <div class="card-body d-flex align-items-center">
-                  <div class="contact-icon me-3">
-                    <i class="bi bi-instagram"></i>
-                  </div>
-                  <div class="contact-details">
-                    <h5 class="mb-1">Instagram</h5>
-                  </div>
-                </div>
-              </div>
-            </a>
-
+            </div>
           </div>
-        </div>
 
-        <div class="col-lg-6">
-          <div class="contact-form card">
-            <div class="card-body">
-              <form action="https://formspree.io/f/xblaydaa" method="POST">
-                <div class="mb-3">
-                  <label for="name" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="name" name="name" required>
+          <!-- Ikonic MenuBar -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card card h-100" data-status="Popular">
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between align-items-start mb-3"
+                >
+                  <h3 class="project-title card-title">Ikonic MenuBar</h3>
+                  <span class="project-status badge bg-warning">Popular</span>
                 </div>
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" name="email" required>
+                <p class="project-description card-text">
+                  Lightweight macOS menubar utility that displays PNG images as
+                  menubar icons with right-click selection and auto-resizing
+                </p>
+                <div class="project-tech mb-3">
+                  <span class="badge bg-secondary me-2">macOS</span>
+                  <span class="badge bg-secondary me-2">Swift</span>
                 </div>
-                <div class="mb-3">
-                  <label for="subject" class="form-label">Subject</label>
-                  <input type="text" class="form-control" id="subject" name="subject" required>
+                <div class="project-type mb-3">
+                  <i class="bi bi-apple"></i> macOS Utility
                 </div>
-                <div class="mb-3">
-                  <label for="message" class="form-label">Message</label>
-                  <textarea class="form-control" id="message" rows="5" name="message" required></textarea>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/BXAMRA/ikonic-menubar/releases"
+                    target="_blank"
+                    class="btn btn-outline-primary btn-sm"
+                  >
+                    <i class="bi bi-download me-2"></i> Download
+                  </a>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Send Message</button>
-              </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- Shikamaru Project Manager -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card card h-100" data-status="Open Source">
+              <div class="card-body">
+                <div
+                  class="d-flex justify-content-between align-items-start mb-3"
+                >
+                  <h3 class="project-title card-title">
+                    Shikamaru Project Manager
+                  </h3>
+                  <span class="project-status badge bg-danger"
+                    >Open Source</span
+                  >
+                </div>
+                <p class="project-description card-text">
+                  Lightweight, self-hosted project and task management
+                  application with Kanban-style board and nested project
+                  organization
+                </p>
+                <div class="project-tech mb-3">
+                  <span class="badge bg-secondary me-2">Node App</span>
+                  <span class="badge bg-secondary me-2">Kan-Ban Style</span>
+                  <span class="badge bg-secondary">Self-hosted</span>
+                </div>
+                <div class="project-type mb-3">
+                  <i class="bi bi-kanban"></i> Project Management
+                </div>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/BXAMRA/shikamaru"
+                    target="_blank"
+                    class="btn btn-outline-primary btn-sm"
+                  >
+                    <i class="bi bi-github me-2"></i>View Code
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="footer py-4">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <p class="mb-0">&copy; 2025 BXAMRA. All rights reserved.</p>
+    <!-- Fiverr Section -->
+    <section id="fiverr" class="fiverr py-5 position-relative">
+      <div class="fiverr-bg"></div>
+      <div class="container position-relative">
+        <div class="text-center mb-5">
+          <h2 class="fiverr-title mb-3">
+            Hire Me on <span class="fiverr-brand">fiverr</span>
+          </h2>
+          <p class="fiverr-subtitle">
+            Ready to bring your ideas to life? Let's work together!
+          </p>
         </div>
-        <div class="col-md-6 text-md-end">
-          <div class="footer-links">
-            <a href="mailto:bxamra@icloud.com" class="me-3">Email</a>
-            <a href="https://github.com/bxamra" target="_blank" class="me-3">GitHub</a>
-            <a href="https://linkedin.com/in/jassbhamra" target="_blank" class="me-3">LinkedIn</a>
-            <a href="https://instagram.com/jas.bxamra" target="_blank">Instagram</a>
+
+        <!-- Flutter Gigs (Top Row) -->
+        <div class="row g-4 mb-4">
+          <div class="col-lg-4">
+            <div class="service-card card h-100">
+              <div class="card-body d-flex flex-column">
+                <h3 class="service-title card-title">
+                  Flutter App Development
+                </h3>
+                <p class="service-description card-text flex-grow-1">
+                  Create beautiful cross-platform mobile apps using Flutter with
+                  smooth animations and native performance
+                </p>
+                <ul class="service-features list-unstyled mt-auto">
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i
+                    >Cross-platform apps
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Native
+                    performance
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Modern
+                    UI/UX
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>API
+                    integration
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="service-card card h-100">
+              <div class="card-body d-flex flex-column">
+                <h3 class="service-title card-title">
+                  Flutter with Laravel Backend
+                </h3>
+                <p class="service-description card-text flex-grow-1">
+                  Complete mobile app solution with Flutter frontend and Laravel
+                  backend for scalable applications
+                </p>
+                <ul class="service-features list-unstyled mt-auto">
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i
+                    >Full-stack solution
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Flutter
+                    + Laravel
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Database
+                    integration
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Scalable
+                    architecture
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="service-card card h-100">
+              <div class="card-body d-flex flex-column">
+                <h3 class="service-title card-title">
+                  Backend Development & APIs
+                </h3>
+                <p class="service-description card-text flex-grow-1">
+                  Build robust backend systems and RESTful APIs using Node.js,
+                  Laravel, and database integration
+                </p>
+                <ul class="service-features list-unstyled mt-auto">
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>RESTful
+                    API development
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Database
+                    design
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i
+                    >Authentication systems
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>API
+                    documentation
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Development Gigs (Bottom Row) -->
+        <div class="row g-4 mb-5">
+          <div class="col-lg-4">
+            <div class="service-card card h-100">
+              <div class="card-body d-flex flex-column">
+                <h3 class="service-title card-title">Web Design & UI/UX</h3>
+                <p class="service-description card-text flex-grow-1">
+                  Create modern, responsive web designs with intuitive user
+                  interfaces and engaging user experiences
+                </p>
+                <ul class="service-features list-unstyled mt-auto">
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Modern
+                    UI/UX design
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i
+                    >Responsive layouts
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i
+                    >User-centered design
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i
+                    >Interactive prototypes
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="service-card card h-100">
+              <div class="card-body d-flex flex-column">
+                <h3 class="service-title card-title">
+                  Convert Figma PSD XD to Website
+                </h3>
+                <p class="service-description card-text flex-grow-1">
+                  Convert designs from Figma, PSD, XD, PNG, JPG, and PDF into
+                  pixel-perfect, fully responsive websites
+                </p>
+                <ul class="service-features list-unstyled mt-auto">
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i
+                    >Pixel-perfect conversion
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Fully
+                    responsive design
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Clean
+                    code with comments
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Fast
+                    delivery
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="service-card card h-100">
+              <div class="card-body d-flex flex-column">
+                <h3 class="service-title card-title">
+                  Convert Excel Calculator to Web App
+                </h3>
+                <p class="service-description card-text flex-grow-1">
+                  Convert Excel calculator or logic like Mortgage, EMI, Tax etc
+                  into responsive web app using modern technologies
+                </p>
+                <ul class="service-features list-unstyled mt-auto">
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Excel to
+                    web conversion
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i
+                    >Responsive design
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Easy
+                    integration
+                  </li>
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Custom
+                    calculators
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a
+            href="https://fiverr.com/bxamra"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-fiverr btn-lg px-5 py-3"
+            ><i class="bi bi-briefcase me-2"></i>
+            Hire Me on Fiverr
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">Get In Touch</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contact-info">
+              <a href="mailto:bxamra@icloud.com" class="text-decoration-none">
+                <div class="contact-item card mb-3">
+                  <div class="card-body d-flex align-items-center">
+                    <div class="contact-icon me-3">
+                      <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <div class="contact-details">
+                      <h5 class="mb-1">Email</h5>
+                      bxamra@icloud.com
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="https://github.com/bxamra"
+                target="_blank"
+                class="text-decoration-none"
+              >
+                <div class="contact-item card mb-3">
+                  <div class="card-body d-flex align-items-center">
+                    <div class="contact-icon me-3">
+                      <i class="bi bi-github"></i>
+                    </div>
+                    <div class="contact-details">
+                      <h5 class="mb-1">GitHub</h5>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a
+                href="https://linkedin.com/in/jassbhamra"
+                target="_blank"
+                class="text-decoration-none"
+              >
+                <div class="contact-item card mb-3">
+                  <div class="card-body d-flex align-items-center">
+                    <div class="contact-icon me-3">
+                      <i class="bi bi-linkedin"></i>
+                    </div>
+                    <div class="contact-details">
+                      <h5 class="mb-1">LinkedIn</h5>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://instagram.com/jas.bxamra"
+                target="_blank"
+                class="text-decoration-none"
+              >
+                <div class="contact-item card mb-3">
+                  <div class="card-body d-flex align-items-center">
+                    <div class="contact-icon me-3">
+                      <i class="bi bi-instagram"></i>
+                    </div>
+                    <div class="contact-details">
+                      <h5 class="mb-1">Instagram</h5>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="contact-form card">
+              <div class="card-body">
+                <form action="https://formspree.io/f/xblaydaa" method="POST">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      name="name"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="subject"
+                      name="subject"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="5"
+                      name="message"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </section>
 
-  <!-- Bootstrap JS -->
-  <script src="./assets/js/bootstrap-bundle.js"></script>
-  <script src="./assets/js/app.js"></script>
-</body>
+    <!-- Footer -->
+    <footer class="footer py-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="mb-0">
+              &copy; <span id="copyrightYear"></span> BXAMRA. All rights
+              reserved.
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <div class="footer-links">
+              <a href="mailto:bxamra@icloud.com" class="me-3">Email</a>
+              <a href="https://github.com/bxamra" target="_blank" class="me-3"
+                >GitHub</a
+              >
+              <a
+                href="https://linkedin.com/in/jassbhamra"
+                target="_blank"
+                class="me-3"
+                >LinkedIn</a
+              >
+              <a href="https://instagram.com/jas.bxamra" target="_blank"
+                >Instagram</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
+    <!-- Bootstrap JS -->
+    <script src="./assets/js/bootstrap-bundle.js"></script>
+    <script src="./assets/js/app.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("copyrightYear").textContent =
+          new Date().getFullYear();
+      });
+    </script>
+  </body>
 </html>
