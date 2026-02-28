@@ -15,7 +15,7 @@ description: Empowering Teachers & Students with Technology
 
 - **Comprehensive Curriculum** — Access study materials from Nursery to 10+2 classes aligned with Punjab School Education Board syllabus.
 - **Quiz & Assessment** — Interactive quizzes with structured attempts and results visibility (where applicable).
-- **Multilingual Certificates** — Generate certificates in English, Punjabi, and Hindi for course completion and achievements.
+- **Multilingual Certificates** — Generate certificates in English, Punjabi, and Hindi for quiz performances.
 - **Teacher Portal** — Teachers can register, complete verification, and submit questions through a guided workflow designed for quality and consistency.
 - **Curated Question Bank** — Teacher-submitted questions are reviewed by a trusted internal admin team before being published to the main question bank.
 - **Secure & Private** — Role-based authentication and secure data handling aligned with India’s DPDP Act 2023.
