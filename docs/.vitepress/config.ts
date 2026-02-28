@@ -5,14 +5,15 @@ const year = new Date().getFullYear();
 const nav: DefaultTheme.NavItem[] = [
   { text: "Home", link: "/" },
   { text: "Portfolio", link: "https://bxamra.github.io", noIcon: true },
-  {
-    text: "Products",
-    items: [
-      { text: "Punjab Educare", link: "/punjab-educare/", activeMatch: "^/punjab-educare/" },
-      { text: "WhatsZip Viewer", link: "/whatszip-viewer/", activeMatch: "^/whatszip-viewer/" },
-      { text: "M.A.G.I.C.", link: "/magic-games/", activeMatch: "^/magic-games/" },
-    ],
-  },
+  { text: "Punjab Educare", link: "/punjab-educare/", activeMatch: "^/punjab-educare/" },
+  // {
+  // text: "Products",
+  // items: [
+  // { text: "Punjab Educare", link: "/punjab-educare/", activeMatch: "^/punjab-educare/" },
+  // { text: "WhatsZip Viewer", link: "/whatszip-viewer/", activeMatch: "^/whatszip-viewer/" },
+  // { text: "M.A.G.I.C.", link: "/magic-games/", activeMatch: "^/magic-games/" },
+  // ],
+  // },
 ];
 
 const sidebar: DefaultTheme.Sidebar = {
@@ -40,6 +41,14 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: "Privacy Policy", link: "/punjab-educare/privacy-policy" },
         { text: "Account Deletion", link: "/punjab-educare/delete-account" },
         { text: "Intellectual Property & Collaboration Notice", link: "/punjab-educare/intellectual-property-collaboration-notice" },
+      ],
+    },
+    {
+      text: "Change Logs",
+      items: [
+        { text: "Android", link: "/punjab-educare/changelogs/android" },
+        // { text: "Teacher Desktop", link: "/punjab-educare/changelogs/teacher-desktop" },
+        // { text: "Admin Desktop", link: "/punjab-educare/changelogs/admin-desktop" },
       ],
     },
   ],

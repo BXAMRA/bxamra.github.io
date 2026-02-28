@@ -1,6 +1,8 @@
 ---
 title: Intellectual Property AND Collaboration Notice - Punjab Educare
 lastUpdated: false
+
+next: false
 ---
 
 # Intellectual Property AND Collaboration Notice

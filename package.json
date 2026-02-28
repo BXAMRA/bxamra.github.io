@@ -7,8 +7,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs",
-    "publish": "gc update && rm -rf products && pnpm build && gc publish"
+    "preview": "vitepress preview docs"
   },
   "keywords": [],
   "author": "",

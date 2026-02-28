@@ -24,11 +24,11 @@ features:
     link: /punjab-educare/
     linkText: Explore
 
-  - icon: 🗂️
-    title: WhatsZip Viewer
-    details: Utility app documentation, downloads, and policies.
-    link: /whatszip-viewer/
-    linkText: Open docs
+  # - icon: 🗂️
+  #   title: WhatsZip Viewer
+  #   details: Utility app documentation, downloads, and policies.
+  #   link: /whatszip-viewer/
+  #   linkText: Open docs
 ---
 
 [Icon by Vectors Tank - FlatIcon](https://www.flaticon.com/free-icons/google-docs)
