@@ -15,7 +15,7 @@ Students do **not** create accounts in Punjab Educare. This policy applies to **
 - **Contact:** [bxamra@icloud.com](mailto:bxamra@icloud.com), [support@punjabeducare.co.in](mailto:support@punjabeducare.co.in)
 - **Grievance Officer (India DPDP 2023):** Jasamrit Singh Bhamra — [bxamra@icloud.com](mailto:bxamra@icloud.com)
 
-## Platforms covered
+## Policy coverage
 
 This policy covers all Punjab Educare apps, as they share the same backend API.
 
