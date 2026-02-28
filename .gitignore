@@ -19,6 +19,7 @@ email.html
 
 # V I T E P R E S S
 docs/.vitepress/cache
+products/
 
 older/
 older/*/**
