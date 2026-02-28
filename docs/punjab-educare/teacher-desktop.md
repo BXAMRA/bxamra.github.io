@@ -1,5 +1,5 @@
 ---
-title: Teacher Desktop
+title: Teacher Desktop - Punjab Educare
 description: Cross-platform desktop app for teachers to contribute questions through a guided, review-based workflow.
 ---
 

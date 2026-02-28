@@ -1,5 +1,5 @@
 import DefaultTheme from "vitepress/theme";
-import "./custom.css";
+import "./light-dark-images.css";
 import "./edo.css";
 import "./fiver-social-tweek.css";
 

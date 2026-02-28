@@ -7,10 +7,6 @@ title: Backend & API - Punjab Educare
 Punjab Educare is powered by an **internal** backend API built for the platform’s own applications (Android and desktop tooling).  
 It is not intended for public/third‑party integration, and this documentation intentionally avoids sharing implementation details that could enable external usage.
 
-::: info Portfolio context
-This page is written for the general public and potential clients to understand the scope of what I can deliver: production-ready backend architecture, role-based workflows, performance-first design, and app-friendly APIs.
-:::
-
 ## What the backend supports
 
 - Student experiences: practice flow, quiz participation, and progress-related data surfaces.

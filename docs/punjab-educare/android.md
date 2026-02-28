@@ -1,5 +1,5 @@
 ---
-title: Android App
+title: Android App - Punjab Educare
 description: Punjab Educare on Android (student learning, teacher tools, and internal administration).
 ---
 

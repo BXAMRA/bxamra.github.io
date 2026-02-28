@@ -1,5 +1,5 @@
 ---
-title: Question Submissions
+title: Question Submissions - Punjab Educare
 description: High-level overview of how teachers contribute questions, with review and publication safeguards.
 ---
 

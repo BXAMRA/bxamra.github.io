@@ -1,5 +1,5 @@
 ---
-title: Teacher Registration
+title: Teacher Registration - Punjab Educare
 description: High-level overview of teacher onboarding and verification across Punjab Educare apps.
 ---
 
