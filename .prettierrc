@@ -1,0 +1,11 @@
+{
+  "printWidth": 160,
+  "singleQuote": false,
+  "semi": true,
+  "trailingComma": "es5",
+
+  "overrides": [
+    { "files": ["**/*.md"], "options": { "printWidth": 160, "proseWrap": "preserve" } },
+    { "files": ["**/*.ts", "**/*.js", "**/*.vue"], "options": { "printWidth": 160 } }
+  ]
+}

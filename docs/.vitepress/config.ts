@@ -1,6 +1,68 @@
-import { defineConfig } from "vitepress";
+import { defineConfig, type DefaultTheme } from "vitepress";
 
 const year = new Date().getFullYear();
+
+const nav: DefaultTheme.NavItem[] = [
+  { text: "Home", link: "/" },
+  { text: "Portfolio", link: "https://bxamra.github.io", noIcon: true },
+  {
+    text: "Products",
+    items: [
+      { text: "Punjab Educare", link: "/punjab-educare/", activeMatch: "^/punjab-educare/" },
+      { text: "WhatsZip Viewer", link: "/whatszip-viewer/", activeMatch: "^/whatszip-viewer/" },
+      { text: "M.A.G.I.C.", link: "/magic-games/", activeMatch: "^/magic-games/" },
+    ],
+  },
+];
+
+const sidebar: DefaultTheme.Sidebar = {
+  "/punjab-educare/": [
+    {
+      text: "Punjab Educare",
+      items: [
+        { text: "Home", link: "/punjab-educare/" },
+        { text: "Teacher Registration", link: "/punjab-educare/teacher-registration" },
+        { text: "Question Submission", link: "/punjab-educare/question-submissions" },
+        { text: "API", link: "/punjab-educare/api" },
+      ],
+    },
+    {
+      text: "Apps",
+      items: [
+        { text: "Android", link: "/punjab-educare/android" },
+        { text: "Teacher Desktop", link: "/punjab-educare/teacher-desktop" },
+      ],
+    },
+    {
+      text: "Legal",
+      items: [
+        { text: "Privacy Policy", link: "/punjab-educare/privacy-policy" },
+        { text: "Account Deletion", link: "/punjab-educare/delete-account" },
+        { text: "Intellectual Property & Collaboration Notice", link: "/punjab-educare/intellectual-property-collaboration-notice" },
+      ],
+    },
+  ],
+
+  "/whatszip-viewer/": [
+    {
+      text: "WhatsZip Viewer",
+      items: [
+        { text: "About", link: "/whatszip-viewer/" },
+        { text: "Android", items: [{ text: "Privacy Policy", link: "/whatszip-viewer/privacy-policy" }] },
+      ],
+    },
+  ],
+
+  "/magic-games/": [
+    {
+      text: "M.A.G.I.C.",
+      items: [
+        { text: "About", link: "/magic-games/" },
+        { text: "Android", items: [{ text: "Privacy Policy", link: "/magic-games/privacy-policy" }] },
+      ],
+    },
+  ],
+};
 
 export default defineConfig({
   title: "BXAMRA",
@@ -8,72 +70,28 @@ export default defineConfig({
   outDir: "../products",
   base: "/products/",
 
+  vite: { server: { host: "0.0.0.0" } },
+
   cleanUrls: true,
   lastUpdated: true,
 
   sitemap: { hostname: "https://bxamra.github.io/products/" },
 
   themeConfig: {
-    search: {
-      provider: "local",
-    },
+    search: { provider: "local" },
 
-    nav: [
-      { text: "Home", link: "/" },
-      { text: "Portfolio", link: "https://bxamra.github.io", noIcon: true },
-      {
-        text: "Products",
-        items: [
-          { text: "Punjab Educare", link: "/punjab-educare/" },
-          { text: "WhatsZip Viewer", link: "/whatszip-viewer/" },
-        ],
-      },
-    ],
-
-    sidebar: {
-      "/punjab-educare/": [
-        {
-          text: "Punjab Educare",
-          items: [
-            { text: "Overview", link: "/punjab-educare/" },
-            {
-              text: "Account Deletion",
-              link: "/punjab-educare/delete-account",
-            },
-            {
-              text: "Intellectual Property & Collaboration Notice",
-              link: "/punjab-educare/intellectual-property-collaboration-notice",
-            },
-          ],
-        },
-        {
-          text: "Android App",
-          items: [
-            {
-              text: "Privacy Policy",
-              link: "/punjab-educare/privacy-policy",
-            },
-          ],
-        },
-      ],
-    },
+    nav,
+    sidebar,
 
     socialLinks: [
       { icon: "instagram", link: "https://www.instagram.com/jas.bxamra" },
       { icon: "github", link: "https://github.com/bxamra" },
-      {
-        icon: "fiverr",
-        link: "https://www.fiverr.com/bxamra",
-        ariaLabel: "Fiverr",
-      },
+      { icon: "fiverr", link: "https://www.fiverr.com/bxamra", ariaLabel: "Fiverr" },
     ],
 
     footer: {
-      message:
-        '<a href="https://www.flaticon.com/free-icons/google-docs" title="document icons" target="_blank" rel="noreferrer">Document icons created by Vectors Tank - Flaticon</a>',
+      // message: ``,
       copyright: `© ${year} BXAMRA. All rights reserved`,
-
-      // <a href="https://www.flaticon.com/free-icons/google-docs" title="google docs icons">Google docs icons created by Vectors Tank - Flaticon</a>
     },
   },
 });

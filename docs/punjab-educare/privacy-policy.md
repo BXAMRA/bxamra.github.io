@@ -1,23 +1,31 @@
 ---
-title: Privacy Policy
+title: Privacy Policy - Punjab Educare
 ---
 
 # Privacy Policy
 
 ::: warning Important notice
-Students do **not** create accounts in this application. This policy applies only to **teachers and administrators** who register and maintain accounts for content management.
+Students do **not** create accounts in Punjab Educare. This policy applies to **teachers and administrators** who register and maintain accounts for content management and internal operations.
 :::
 
 ## Who we are
 
-- **App name:** Punjab Educare (Android)
+- **Product:** Punjab Educare App
 - **Controller/Developer:** BXAMRA
 - **Contact:** [bxamra@icloud.com](mailto:bxamra@icloud.com), [support@punjabeducare.co.in](mailto:support@punjabeducare.co.in)
 - **Grievance Officer (India DPDP 2023):** Jasamrit Singh Bhamra — [bxamra@icloud.com](mailto:bxamra@icloud.com)
 
+## Platforms covered
+
+This policy covers all Punjab Educare apps, as they share the same backend API.
+
+`Android` `iOS (when Available)`\
+`Teacher Desktop` `Admin Desktop`\
+`PWA / Web App (in Development)`
+
 ## Scope
 
-This policy covers data handled by the mobile app, backend APIs, and supporting services used for teacher authentication, question submissions, content management, and administrative functions. It applies to registered teachers and administrators only.
+This policy covers data handled by the Punjab Educare apps, backend APIs, and supporting services used for teacher authentication, question submissions, content management, and administrative functions. It applies to registered teachers and administrators only.
 
 ## Data we collect
 
@@ -27,9 +35,9 @@ Data collected from registered teachers and administrators may include:
 - **Authentication:** Hashed credentials, tokens, one-time codes, session identifiers
 - **App activity:** Submitted content, approval workflows, progress tracking, timestamps
 - **Question submissions:** Educational content (questions, answers, explanations, metadata) submitted by teachers for academic purposes
-- **Device and diagnostics:** App version, device model, OS, crash logs, performance metrics, coarse network information
+- **Device and diagnostics:** App version, device/OS information, crash logs, performance metrics, coarse network information
 - **Communications:** Support messages, feedback, error reports, attachments you provide
-- **Optional permissions:** Camera (content submissions), photos/files (upload/download), notifications (FCM)
+- **Optional permissions (depending on platform):** Camera (verification/content), photos/files (upload/download), notifications (service updates)
 
 ## How we use data
 
@@ -45,10 +53,10 @@ Data collected from registered teachers and administrators may include:
 Please read this section carefully if you plan to submit educational content.
 :::
 
-- **Teacher submissions:** Questions and educational content submitted by teachers become the property of the Punjab Educare team once accepted and approved
-- **Permanent retention:** Accepted educational content is permanently retained and cannot be requested for removal
-- **Academic integrity:** Submitted content may be used for educational purposes, curriculum development, and assessment creation
-- **Attribution:** Records of contributing teachers may be maintained for internal purposes
+- **Teacher submissions:** Educational content submitted by teachers is reviewed before being added to the main question bank.
+- **Permanent retention:** Accepted educational content is permanently retained and cannot be requested for removal.
+- **Academic integrity:** Submitted content may be used for educational purposes, curriculum development, and assessment creation.
+- **Related notice:** For intellectual property, licensing, and collaboration terms, see: **[Intellectual Property & Collaboration Notice](/punjab-educare/intellectual-property-collaboration-notice)**
 
 ## Data sharing
 
@@ -81,6 +89,10 @@ For teacher accounts:
 - Your account will be deleted, but accepted/approved educational content you contributed remains permanently (typically de-identified)
 
 For step-by-step instructions, see: **[Account Deletion Request](/punjab-educare/delete-account)**
+
+## Changes to This Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 
 ## Contact
 

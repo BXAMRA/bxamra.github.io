@@ -1,16 +1,15 @@
 ---
-title: Account Deletion Request
+title: Account Deletion Request - Punjab Educare
 ---
 
 # Account Deletion Request
 
 ::: warning
-
 - Only **teacher accounts** can be deleted (students don’t have accounts)
 - Deletion is **irreversible**
 - Processing time: up to **4 weeks** after email verification
 - Approved content you submitted (e.g. questions) may remain in our database
-  :::
+:::
 
 ## Request by email
 
