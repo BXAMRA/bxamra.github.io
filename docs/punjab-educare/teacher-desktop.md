@@ -7,6 +7,34 @@ description: Cross-platform desktop app for teachers to contribute questions thr
 
 Teacher Desktop is a dedicated cross-platform application for teachers to contribute questions and support assessment workflows on Punjab Educare.
 
+## Download
+
+<div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap">
+  <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest/download/educare-teacher_windows-x86_64-setup.exe" target="_blank">
+    <img src="/images/icons/windows.png" alt="Download for Windows" width="200">
+  </a>
+
+  <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest/download/educare-teacher_darwin-aarch64.dmg" target="_blank">
+    <img src="/images/icons/macOS-m1.png" alt="Download for macOS (Apple Silicon)" width="200">
+  </a>
+</div>
+
+> Always download the latest version from the [official release repository](https://github.com/BXAMRA/educare-teacher-release).
+
+## Installation
+
+### Windows (64‑bit)
+
+1. Download the `-setup.exe` installer from the latest release.
+2. Run the installer and follow the on-screen instructions.
+3. If Windows SmartScreen appears, click **More info → Run anyway** to proceed.
+
+### macOS (Apple Silicon)
+
+1. Download the `.dmg` file from the latest release.
+2. Open it and drag the app into your **Applications** folder.
+3. On first launch, right-click the app icon and choose **Open** to allow it to run.
+
 ## What it enables
 
 - A structured question contribution experience designed for consistency and quality.
@@ -18,9 +46,8 @@ Teacher Desktop is a dedicated cross-platform application for teachers to contri
 
 Teacher Desktop is available for:
 
-- Windows (x64 and ARM64)
-- macOS (Apple Silicon and Intel)
-- Linux
+- Windows x64
+- macOS Apple Silicon
 
 ## System notifications
 

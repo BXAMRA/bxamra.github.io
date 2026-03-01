@@ -7,20 +7,16 @@ description: Punjab Educare on Android (student learning, teacher tools, and int
 
 Punjab Educare’s Android app is the primary client for the platform, providing a role-aware experience for students and teachers, with internal administration capabilities used by the trusted admin team.
 
-::: info Scope
-This page describes user-facing capabilities and the mobile tech stack at a high level. It intentionally avoids technical details that could enable external use of the internal backend.
-:::
-
 ## Download
 
 <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap">
   <a href="https://play.google.com/store/apps/details?id=com.deepakkumar.PunjabEducare" target="_blank">
-    <img src="/images/icons/google-play-badge.png" alt="" width="150">
+    <img src="/images/icons/google-play-badge.png" alt="" width="200">
   </a>
   
   <a href="https://www.indusappstore.com/apps/education/punjab-educare/com.deepakkumar.PunjabEducare" target="_blank">
-    <img class="light-only" src="/images/icons/indus-white.png" alt="Download on Indus Appstore" width="150">
-    <img class="dark-only" src="/images/icons/indus-black.png" alt="Download on Indus Appstore" width="150">
+    <img class="light-only" src="/images/icons/indus-white.png" alt="Download on Indus Appstore" width="200">
+    <img class="dark-only" src="/images/icons/indus-black.png" alt="Download on Indus Appstore" width="200">
   </a>
 </div>
 
