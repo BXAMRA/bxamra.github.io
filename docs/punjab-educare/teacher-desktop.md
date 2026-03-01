@@ -7,6 +7,13 @@ description: Cross-platform desktop app for teachers to contribute questions thr
 
 Teacher Desktop is a dedicated cross-platform application for teachers to contribute questions and support assessment workflows on Punjab Educare.
 
+## What it enables
+
+- A structured question contribution experience designed for consistency and quality.
+- A review-first pipeline where teacher contributions are curated before entering the main question bank.
+- A desktop-focused UI for faster entry and management of larger submissions.
+- Shared workflows across platforms: [Teacher Registration](/punjab-educare/teacher-registration) and [Question Submissions](/punjab-educare/question-submissions).
+
 ## Download
 
 <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap">
@@ -25,7 +32,7 @@ Teacher Desktop is a dedicated cross-platform application for teachers to contri
 
 ### Windows (64‑bit)
 
-1. Download the `-setup.exe` installer from the latest release.
+1. Download the `setup.exe` installer from the latest release.
 2. Run the installer and follow the on-screen instructions.
 3. If Windows SmartScreen appears, click **More info → Run anyway** to proceed.
 
@@ -35,25 +42,30 @@ Teacher Desktop is a dedicated cross-platform application for teachers to contri
 2. Open it and drag the app into your **Applications** folder.
 3. On first launch, right-click the app icon and choose **Open** to allow it to run.
 
-## What it enables
+## System Requirements
 
-- A structured question contribution experience designed for consistency and quality.
-- A review-first pipeline where teacher contributions are curated before entering the main question bank.
-- A desktop-focused UI for faster entry and management of larger submissions.
-- Shared workflows across platforms: [Teacher Registration](/punjab-educare/teacher-registration) and [Question Submissions](/punjab-educare/question-submissions).
+#### Windows
 
-## Platform availability
+- Windows 10 or later (64-bit)
+- 4 GB RAM or more
+- Stable internet connection (required)
+- 100 MB free disk space
 
-Teacher Desktop is available for:
+#### MacOS
 
-- Windows x64
-- macOS Apple Silicon
+- Apple Silicon (M1 or newer)
+- MacOS 13 (Ventura) or later
+- Stable internet connection (required)
+- 100 MB free disk space
 
-## System notifications
+## Updates
 
-Teacher Desktop supports system notifications to surface important platform updates and workflow status changes without requiring the app to stay in the foreground.
+- Teacher Desktop checks for updates automatically on startup (when Auto Update is enabled).
+- If a new version is available, it is downloaded in the background and an Update and Restart button appears in title bar.
+- Click it to apply the update.
+
+> As long as **Auto Update** is enabled (default), you only need to install the app once.
 
 ## Tech stack
 
-**Desktop app** — Tauri with Vue.js for lightweight, native-performance desktop applications.  
 `Tauri` `Vue.js` `Tailwind` `Shadcn-Vue`

@@ -7,6 +7,8 @@ description: Punjab Educare on Android (student learning, teacher tools, and int
 
 Punjab Educare’s Android app is the primary client for the platform, providing a role-aware experience for students and teachers, with internal administration capabilities used by the trusted admin team.
 
+The app is fully translated to 3 languages : English, Punjabi, and Hindi.
+
 ## Download
 
 <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap">
@@ -45,9 +47,7 @@ The platform includes internal administration capabilities used by a trusted tea
 - Manage platform communication surfaces (e.g., notifications, greetings) and review user feedback.
 - Maintain academic structure data (schools, classes, subjects/topics) and monitor platform status.
 
-::: warning Access
-Administration features are not publicly accessible and are intended only for the trusted internal admin team.
-:::
+> Administration features are not publicly accessible and are intended only for the trusted internal admin team.
 
 ## System notifications
 
@@ -56,14 +56,8 @@ Punjab Educare supports device-level notifications for important updates.
 - Broadcast notifications: platform-wide announcements can be sent to all users.
 - Teacher-targeted notifications: individual teachers can receive status updates such as account approval or account rejection.
 
-## Key platform behavior
-
-- Teacher-submitted questions are reviewed by the trusted internal admin team before entering the main question bank.
-- The app supports multilingual presentation: English, Punjabi, and Hindi.
-
 ## Tech stack
 
-**Mobile App** — Flutter & Dart with Material Design.  
 `Flutter` `Dart` `Material Design`
 
 ## Privacy policy
