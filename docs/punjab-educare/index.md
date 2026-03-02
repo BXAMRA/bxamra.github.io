@@ -71,7 +71,11 @@ Punjab Educare’s Android app is the primary client for the platform, providing
 
 Read full [Doc](/punjab-educare/android)
 
-<h2 style="padding-top:1rem;">Teacher Desktop App</h2>
+<h2 style="padding-top:1rem; display:flex; align-items:center; gap:12px;">Teacher Desktop App
+  <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/v/release/BXAMRA/educare-teacher-release?display_name=tag&style=flat&label=&color=lightgrey" alt="version" />
+  </a>
+</h2>
 
 <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:12px;">
   <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest/download/educare-teacher_windows-x86_64-setup.exe" target="_blank">

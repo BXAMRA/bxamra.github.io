@@ -3,9 +3,12 @@ title: Teacher Desktop - Punjab Educare
 description: Cross-platform desktop app for teachers to contribute questions through a guided, review-based workflow.
 ---
 
-# Teacher Desktop
-
-[![version](https://img.shields.io/github/v/release/BXAMRA/educare-teacher-release?display_name=tag&style=flat&label=&color=lightgrey)](https://github.com/BXAMRA/educare-teacher-release/releases/latest)
+<div style="display:flex; align-items:center; gap:12px;">
+  <h1>Teacher Desktop</h1>
+  <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest" target="_blank">
+    <img src="https://img.shields.io/github/v/release/BXAMRA/educare-teacher-release?display_name=tag&style=flat&label=&color=lightgrey" alt="version" />
+  </a>
+</div>
 
 Teacher Desktop is a dedicated cross-platform application for teachers to contribute questions and support assessment workflows on Punjab Educare.
 
