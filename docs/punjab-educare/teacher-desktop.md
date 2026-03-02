@@ -12,6 +12,14 @@ description: Cross-platform desktop app for teachers to contribute questions thr
 
 Teacher Desktop is a dedicated cross-platform application for teachers to contribute questions and support assessment workflows on Punjab Educare.
 
+## Updating from v1.0.0
+
+`v1.0.0` is no longer being supported. Users must uninstall this version.\
+You can remove it from `Control Panel > Programs > Uninstall a program`.\
+Select 'Punjab Educare Teacher' from the list and select `UNINSTALL` from the top bar.
+
+All subsequent versions include enhancements and built-in automatic update support.
+
 ## What it enables
 
 - A structured question contribution experience designed for consistency and quality.
@@ -65,7 +73,7 @@ Teacher Desktop is a dedicated cross-platform application for teachers to contri
 
 ## Updates
 
-- Teacher Desktop checks for updates automatically on startup (when Auto Update is enabled).
+- Teacher Desktop `v1.4.0` or later checks for updates automatically on startup (when Auto Update is enabled).
 - If a new version is available, it is downloaded in the background and an Update and Restart button appears in title bar.
 - Click it to apply the update.
 

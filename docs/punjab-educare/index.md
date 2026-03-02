@@ -77,6 +77,13 @@ Read full [Doc](/punjab-educare/android)
   </a>
 </h2>
 
+::: warning Updating from v1.0.0
+`v1.0.0` is no longer being supported. Users must uninstall this version. All subsequent versions include enhancements and built-in automatic update support.
+
+You can remove older installs from `Control Panel > Programs > Uninstall a program`. Select 'Punjab Educare Teacher' from the list and select `UNINSTALL` from the top bar.
+
+:::
+
 <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:12px;">
   <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest/download/educare-teacher_windows-x86_64-setup.exe" target="_blank">
     <img src="/images/icons/windows.png" alt="Download for Windows" width="200">
