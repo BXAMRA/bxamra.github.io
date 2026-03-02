@@ -20,8 +20,9 @@ const sidebar: DefaultTheme.Sidebar = {
   "/punjab-educare/": [
     {
       text: "Punjab Educare",
+      link: "/punjab-educare/",
       items: [
-        { text: "Home", link: "/punjab-educare/" },
+        { text: "Home", link: "/punjab-educare/home" },
         { text: "Teacher Registration", link: "/punjab-educare/teacher-registration" },
         { text: "Question Submission", link: "/punjab-educare/question-submissions" },
         { text: "Teacher Support", link: "/punjab-educare/teacher-support" },

@@ -16,3 +16,9 @@
 .VPHero .name {
   font-family: "Edo", var(--vp-font-family-base);
 }
+
+/*Inline branding*/
+.font-edo-inline {
+  font-size: 1.1rem;
+  font-family: "Edo", var(--vp-font-family-base);
+}

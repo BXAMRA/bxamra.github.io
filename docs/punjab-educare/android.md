@@ -9,16 +9,24 @@ Punjab Educare’s Android app is the primary client for the platform, providing
 
 The app is fully translated to 3 languages : English, Punjabi, and Hindi.
 
+## Beta Channel Discontinued
+
+**_:bangbang: The beta version of the app has been discontinued as of 2025._**
+
+If your app version shows a `β` beta symbol `v6.x.xβ`, you are using a beta build.\
+Please uninstall it and install the stable version from the app stores listed below.
+
+The beta download page is removed and will no longer receive updates in 2026.
+
 ## Download
 
 <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap">
   <a href="https://play.google.com/store/apps/details?id=com.deepakkumar.PunjabEducare" target="_blank">
-    <img src="/images/icons/google-play-badge.png" alt="" width="200">
+    <img src="/images/icons/google-play-badge.png" alt="Get it on Google Play" width="200">
   </a>
   
   <a href="https://www.indusappstore.com/apps/education/punjab-educare/com.deepakkumar.PunjabEducare" target="_blank">
-    <img class="light-only" src="/images/icons/indus-white.png" alt="Download on Indus Appstore" width="200">
-    <img class="dark-only" src="/images/icons/indus-black.png" alt="Download on Indus Appstore" width="200">
+    <img src="/images/icons/indus-black.png" alt="Download on Indus Appstore" width="200">
   </a>
 </div>
 

@@ -1,36 +1,98 @@
 ---
+layout: home
 title: Punjab Educare
 description: Empowering Teachers & Students with Technology
+
+hero:
+  text: "Punjab Educare"
+  tagline: "Empowering Teachers & Students with Technology"
+  image:
+    src: /images/punjab-educare/logo.png
+    alt: Documentation Icon
+  actions:
+    - theme: brand
+      text: Docs
+      link: "/punjab-educare/home"
+
+    - theme: alt
+      text: Privacy Policy
+      link: "/punjab-educare/privacy-policy"
+
+features:
+  - title: Comprehensive Curriculum
+    details: Access study materials from Nursery to 10+2 classes aligned with Punjab School Education Board syllabus.
+
+  - title: Quiz & Assessment
+    details: Interactive quizzes with structured attempts and results visibility (where applicable).
+
+  - title: Multilingual Certificates
+    details: Generate certificates in English, Punjabi, and Hindi for quiz performances.
+
+  - title: Teacher Portal
+    details: Teachers can register, complete verification, and submit questions through a guided workflow designed for quality and consistency.
+
+  - title: Curated Question Bank
+    details: Teacher-submitted questions are reviewed by a trusted internal admin team before being published to the main question bank.
+
+  - title: Cross-Platform
+    details: Shared workflows across mobile and desktop clients, backed by a single internal API.
 ---
 
-<div style="display:flex; align-items:flex-end; gap:12px;">
-  <img src="/images/punjab-educare/logo.png" alt="Punjab Educare" style="width:5rem; height:auto;">
-  <div style="display:flex; flex-direction:column;">
-    <h1 style="margin:0; line-height:1;">Punjab Educare</h1>
-    <h4 style="margin:4px 0 0; line-height:1.2;">Empowering Teachers & Students with Technology</h4>
-  </div>
+::: info Disclaimer
+Apps are developed by BXAMRA with the Punjab Educare Team to make learning resources accessible for all.\
+Provided with unrestricted access and unlimited use for the Department of Education, Punjab, it's teachers, students, and Department‑affiliated schools for educational purposes
+
+Website content displayed in-app is managed by the Punjab Educare Team; the developer isn't responsible for third‑party content.\
+Please report discrepancies to the website maintainer **Deepak Kumar** at [deepak@ppppjalandhar.org](mailto:deepak@ppppjalandhar.org).
+
+For complete terms read [Intellectual Property & Collaboration Notice](/punjab-educare/intellectual-property-collaboration-notice)
+:::
+
+# Downloads
+
+<h2 style="border:none; margin-top:0;">Android App</h2>
+
+::: tip Beta Channel Discontinued
+The beta version of the app has been discontinued as of 2025. The beta download page is removed and will no longer receive updates in 2026.\
+If your app version shows a β beta symbol v6.x.xβ, you are using a beta build.Please uninstall it and install the stable version from the app stores listed below.
+:::
+
+<div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:12px;">
+  <a href="https://play.google.com/store/apps/details?id=com.deepakkumar.PunjabEducare" target="_blank">
+    <img src="/images/icons/google-play-badge.png" alt="Get it on Google Play" width="200">
+  </a>
+  
+  <a href="https://www.indusappstore.com/apps/education/punjab-educare/com.deepakkumar.PunjabEducare" target="_blank">
+    <img src="/images/icons/indus-black.png" alt="Download on Indus Appstore" width="200">
+  </a>
 </div>
 
-## Features
+Punjab Educare’s Android app is the primary client for the platform, providing a role-aware experience for students and teachers, with internal administration capabilities used by the trusted admin team.
 
-- **Comprehensive Curriculum** — Access study materials from Nursery to 10+2 classes aligned with Punjab School Education Board syllabus.
-- **Quiz & Assessment** — Interactive quizzes with structured attempts and results visibility (where applicable).
-- **Multilingual Certificates** — Generate certificates in English, Punjabi, and Hindi for quiz performances.
-- **Teacher Portal** — Teachers can register, complete verification, and submit questions through a guided workflow designed for quality and consistency.
-- **Curated Question Bank** — Teacher-submitted questions are reviewed by a trusted internal admin team before being published to the main question bank.
-- **Secure & Private** — Role-based authentication and secure data handling aligned with India’s DPDP Act 2023.
-- **Cross-Platform** — Shared workflows across mobile and desktop clients, backed by a single internal API.
+Read full [Doc](/punjab-educare/android)
 
-## Platforms
+<h2 style="padding-top:1rem;">Teacher Desktop App</h2>
 
-`Android` `iOS (when Available)` `Windows` `MacOS` `Linux` `Web (in Development)`
+<div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:12px;">
+  <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest/download/educare-teacher_windows-x86_64-setup.exe" target="_blank">
+    <img src="/images/icons/windows.png" alt="Download for Windows" width="200">
+  </a>
 
-## Quick links
+  <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest/download/educare-teacher_darwin-aarch64.dmg" target="_blank">
+    <img src="/images/icons/macOS-m1.png" alt="Download for macOS (Apple Silicon)" width="200">
+  </a>
+</div>
 
-- [Android App](/punjab-educare/android)
-- [Teacher Desktop](/punjab-educare/teacher-desktop)
-- [Teacher Registration](/punjab-educare/teacher-registration)
-- [Question Submissions](/punjab-educare/question-submissions)
-- [Backend & API](/punjab-educare/api)
-- [Privacy Policy](/punjab-educare/privacy-policy)
-- [Intellectual Property & Collaboration Notice](/punjab-educare/intellectual-property-collaboration-notice)
+Teacher Desktop is a dedicated cross-platform application for teachers to contribute questions and support assessment workflows on Punjab Educare.
+
+Read full [Doc](/punjab-educare/teacher-desktop)
+
+## Official Distribution
+
+All applications are distributed only through:
+
+- Google Play Store
+- Indus Appstore
+- Official GitHub release repository
+
+Avoid downloading Punjab Educare software from unofficial sources.
