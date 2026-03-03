@@ -48,7 +48,7 @@ const sidebar: DefaultTheme.Sidebar = {
       text: "Change Logs",
       items: [
         { text: "Android", link: "/punjab-educare/changelogs/android" },
-        // { text: "Teacher Desktop", link: "/punjab-educare/changelogs/teacher-desktop" },
+        { text: "Teacher Desktop", link: "/punjab-educare/changelogs/teacher-desktop" },
         // { text: "Admin Desktop", link: "/punjab-educare/changelogs/admin-desktop" },
       ],
     },
@@ -101,7 +101,6 @@ export default defineConfig({
     ],
 
     footer: {
-      // message: ``,
       copyright: `© ${year} BXAMRA. All rights reserved`,
     },
   },

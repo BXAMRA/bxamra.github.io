@@ -1,25 +1,3 @@
-# Dependencies and AdonisJS build
 node_modules
-build
-tmp
 
-.well-known/
-
-
-# Platform specific
-.DS_Store
-
-# ignore vscode workspace files
-*.code-workspace
-
-# ignore template files
-temp.*
-
-email.html
-
-# V I T E P R E S S
 docs/.vitepress/cache
-products/
-
-older/
-older/*/**
