@@ -33,7 +33,16 @@ const sidebar: DefaultTheme.Sidebar = {
       text: "Apps",
       items: [
         { text: "Android", link: "/punjab-educare/android" },
-        { text: "Teacher Desktop", link: "/punjab-educare/teacher-desktop" },
+        {
+          text: "Teacher Desktop",
+          link: "/punjab-educare/teacher-desktop",
+          // items: [
+          //   {
+          //     text: "Update Guide",
+          //     link: "/punjab-educare/update-from-v1",
+          //   },
+          // ],
+        },
       ],
     },
     {
@@ -44,14 +53,14 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: "Intellectual Property & Collaboration Notice", link: "/punjab-educare/intellectual-property-collaboration-notice" },
       ],
     },
-    {
-      text: "Change Logs",
-      items: [
-        { text: "Android", link: "/punjab-educare/changelogs/android" },
-        { text: "Teacher Desktop", link: "/punjab-educare/changelogs/teacher-desktop" },
-        // { text: "Admin Desktop", link: "/punjab-educare/changelogs/admin-desktop" },
-      ],
-    },
+    // {
+    //   text: "Change Logs",
+    //   items: [
+    //     { text: "Android", link: "/punjab-educare/changelogs/android" },
+    //     { text: "Teacher Desktop", link: "/punjab-educare/changelogs/teacher-desktop" },
+    //     // { text: "Admin Desktop", link: "/punjab-educare/changelogs/admin-desktop" },
+    //   ],
+    // },
   ],
 
   "/whatszip-viewer/": [
