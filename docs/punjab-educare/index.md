@@ -69,7 +69,7 @@ If your app version shows a β beta symbol v6.x.xβ, you are using a beta build.
 
 Punjab Educare’s Android app is the primary client for the platform, providing a role-aware experience for students and teachers, with internal administration capabilities used by the trusted admin team.
 
-Read full [Doc](/punjab-educare/android)
+Read [Doc](/punjab-educare/android), [Changelog](/punjab-educare/changelogs/android)
 
 <h2 style="padding-top:1rem; display:flex; align-items:center; gap:12px;">Teacher Desktop App
   <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest" target="_blank">
@@ -82,6 +82,7 @@ Read full [Doc](/punjab-educare/android)
 
 You can remove older installs from `Control Panel > Programs > Uninstall a program`. Select 'Punjab Educare Teacher' from the list and select `UNINSTALL` from the top bar.
 
+[View Update Guide](/punjab-educare/update-from-v1)
 :::
 
 <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:12px;">
@@ -96,7 +97,7 @@ You can remove older installs from `Control Panel > Programs > Uninstall a progr
 
 Teacher Desktop is a dedicated cross-platform application for teachers to contribute questions and support assessment workflows on Punjab Educare.
 
-Read full [Doc](/punjab-educare/teacher-desktop)
+Read [Doc](/punjab-educare/teacher-desktop), [Update Guide](/punjab-educare/update-from-v1)
 
 ## Official Distribution
 

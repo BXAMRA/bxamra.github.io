@@ -20,6 +20,8 @@ Select 'Punjab Educare Teacher' from the list and select `UNINSTALL` from the to
 
 All subsequent versions include enhancements and built-in automatic update support.
 
+[Update Guide](/punjab-educare/update-from-v1)
+
 ## What it enables
 
 - A structured question contribution experience designed for consistency and quality.
