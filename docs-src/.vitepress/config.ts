@@ -87,15 +87,15 @@ const sidebar: DefaultTheme.Sidebar = {
 export default defineConfig({
   title: "BXAMRA",
 
-  outDir: "../products",
-  base: "/products/",
+  outDir: "../docs",
+  base: "/docs/",
 
   vite: { server: { host: "0.0.0.0" } },
 
   cleanUrls: true,
   lastUpdated: true,
 
-  sitemap: { hostname: "https://bxamra.github.io/products/" },
+  sitemap: { hostname: "https://bxamra.github.io/docs/" },
 
   themeConfig: {
     search: { provider: "local" },

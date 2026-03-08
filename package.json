@@ -5,9 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "docs": "vitepress dev docs-src --open",
+    "docs:build": "vitepress build docs-src",
+    "docs:preview": "vitepress preview docs-src",
+    "blog": "vitepress dev blog-src --open",
+    "blog:build": "vitepress build blog-src",
+    "blog:preview": "vitepress preview blog-src"
   },
   "keywords": [],
   "author": "",

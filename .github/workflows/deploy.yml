@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -31,14 +31,16 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - run: pnpm run build # = vitepress build docs -> writes ./products via outDir
+      - run: pnpm run docs:build # docs-src -> ./docs
+      - run: pnpm run blog:build # blog-src -> ./blog
 
       - run: |
           rm -rf site
           mkdir -p site
           cp -R assets site/assets
           cp index.html 404.html robots.txt sitemap.xml rsg.html web.config site/ || true
-          cp -R products site/products
+          cp -R docs site/docs
+          cp -R blog site/blog
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
