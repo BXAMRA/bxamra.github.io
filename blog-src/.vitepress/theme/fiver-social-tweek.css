@@ -1,0 +1,11 @@
+/* Bigger clickable area + bigger icon for Fiverr only */
+.VPSocialLink[aria-label="Fiverr"] {
+  width: 66px;
+}
+
+/* Works for both inline <svg> and the Iconify mask <span class="vpi-social-..."> */
+.VPSocialLink[aria-label="Fiverr"] svg,
+.VPSocialLink[aria-label="Fiverr"] [class^="vpi-social-"] {
+  width: 56px;
+  height: 56px;
+}
