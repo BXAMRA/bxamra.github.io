@@ -2,4 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://bxamra.github.io/sitemap.xml
-Sitemap: https://bxamra.github.io/products/sitemap.xml
+Sitemap: https://bxamra.github.io/docs/sitemap.xml
+Sitemap: https://bxamra.github.io/blog/sitemap.xml

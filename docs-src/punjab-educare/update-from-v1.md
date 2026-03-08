@@ -71,7 +71,7 @@ Try clicking the **Name** column header to sort the list alphabetically — this
 Your question submissions and account information are stored on the server — nothing is lost when switching versions.
 :::
 
-## Done ✓
+## Done
 
 You are now running the latest version of **Punjab Educare Teacher**.
 

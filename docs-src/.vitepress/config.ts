@@ -97,6 +97,13 @@ export default defineConfig({
 
   sitemap: { hostname: "https://bxamra.github.io/docs/" },
 
+  head: [
+    ["meta", { property: "og:site_name", content: "BXAMRA" }],
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    ["link", { rel: "canonical", href: "https://bxamra.github.io/docs/" }],
+  ],
+
   themeConfig: {
     search: { provider: "local" },
 

@@ -54,7 +54,7 @@ For complete terms read [Intellectual Property & Collaboration Notice](/punjab-e
 
 ::: tip Beta Channel Discontinued
 The beta version of the app has been discontinued as of 2025. The beta download page is removed and will no longer receive updates in 2026.\
-If your app version shows a β beta symbol v6.x.xβ, you are using a beta build.Please uninstall it and install the stable version from the app stores listed below.
+If your app version shows a β beta symbol `v6.x.xβ`, you are using a beta build.Please uninstall it and install the stable version from the app stores listed below.
 :::
 
 <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:12px;">
