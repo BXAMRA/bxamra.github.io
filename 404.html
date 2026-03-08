@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Redirect script first — before anything renders -->
     <script>
       const path = window.location.pathname;
       if (path.startsWith("/products/")) {
@@ -13,161 +12,36 @@
       }
     </script>
 
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <title>404 — Not Found</title>
 
     <link rel="dns-prefetch" href="//fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
 
-    <style>
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-
-      html,
-      body {
-        height: 100%;
-        font-family: "Figtree", sans-serif;
-        background-color: #0f1117;
-        color: #e2e8f0;
-      }
-
-      .container {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 2rem;
-        text-align: center;
-      }
-
-      .badge {
-        font-size: 0.8rem;
-        font-weight: 600;
-        letter-spacing: 0.1em;
-        color: #7c86ff;
-        background: rgba(124, 134, 255, 0.1);
-        border: 1px solid rgba(124, 134, 255, 0.25);
-        border-radius: 99px;
-        padding: 0.25rem 0.75rem;
-        margin-bottom: 1.25rem;
-        display: inline-block;
-      }
-
-      h1 {
-        font-size: clamp(2rem, 6vw, 3.5rem);
-        font-weight: 800;
-        line-height: 1.15;
-        margin-bottom: 0.75rem;
-      }
-
-      .subtitle {
-        font-size: 1rem;
-        color: #94a3b8;
-        margin-bottom: 2.5rem;
-      }
-
-      .links {
-        width: 100%;
-        max-width: 480px;
-        display: flex;
-        flex-direction: column;
-        gap: 0.75rem;
-      }
-
-      .link-card {
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        padding: 1rem 1.25rem;
-        background: #1a1d27;
-        border: 1px solid #2a2d3a;
-        border-radius: 12px;
-        text-decoration: none;
-        color: inherit;
-        transition:
-          background 0.15s,
-          border-color 0.15s;
-      }
-
-      .link-card:hover {
-        background: #1f2235;
-        border-color: #7c86ff;
-      }
-
-      .link-icon {
-        width: 40px;
-        height: 40px;
-        border-radius: 10px;
-        background: rgba(124, 134, 255, 0.12);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 1.2rem;
-        flex-shrink: 0;
-      }
-
-      .link-text {
-        flex: 1;
-        text-align: left;
-      }
-
-      .link-text strong {
-        display: block;
-        font-size: 0.95rem;
-        font-weight: 600;
-        color: #f1f5f9;
-      }
-
-      .link-text span {
-        font-size: 0.8rem;
-        color: #64748b;
-      }
-
-      .link-arrow {
-        color: #475569;
-        font-size: 1rem;
+    <style type="text/tailwindcss">
+      @theme {
+        --font-sans: "Figtree", sans-serif;
       }
     </style>
   </head>
 
-  <body>
-    <div class="container">
-      <div>404</div>
-      <h1>This page does not exist</h1>
-      <p class="subtitle">Sorry, we couldn't find the page you're looking for.</p>
+  <body class="bg-white text-[#636b6f] font-sans font-light h-screen flex items-center justify-center">
+    <div class="flex flex-col items-center">
+      <div class="flex items-center mb-2">
+        <div class="text-2xl border-r-2 border-[#636b6f] px-4">404</div>
+        <div class="text-lg px-4">Not Found</div>
+      </div>
 
-      <div class="links">
-        <a href="https://bxamra.github.io" class="link-card">
-          <div class="link-icon">🏠</div>
-          <div class="link-text">
-            <strong>Portfolio</strong>
-            <span>Back to the main site</span>
-          </div>
-          <span class="link-arrow">›</span>
-        </a>
+      <div class="flex flex-col">
+        <div class="text-center mb-8">This page does not exist</div>
+        <div class="text-center text-sm mb-2 text-gray-400">You might be looking for</div>
+      </div>
 
-        <a href="/docs" class="link-card">
-          <div class="link-icon">📖</div>
-          <div class="link-text">
-            <strong>Documentation</strong>
-            <span>Guides, references and more</span>
-          </div>
-          <span class="link-arrow">›</span>
-        </a>
-
-        <a href="/blog" class="link-card">
-          <div class="link-icon">✍️</div>
-          <div class="link-text">
-            <strong>Blog</strong>
-            <span>Read the latest posts</span>
-          </div>
-          <span class="link-arrow">›</span>
-        </a>
+      <div class="w-50 flex flex-col">
+        <a href="/" class="flex items-center justify-center py-2 border-gray-200 hover:text-gray-800 transition-colors"> Portfolio </a>
+        <a href="/docs" class="flex items-center justify-center py-2 border-t border-gray-200 hover:text-gray-800 transition-colors"> Documentation </a>
+        <a href="/blog" class="flex items-center justify-center py-2 border-t border-gray-200 hover:text-gray-800 transition-colors"> Blog </a>
       </div>
     </div>
   </body>
