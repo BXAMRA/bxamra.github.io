@@ -38,7 +38,7 @@ jobs:
           rm -rf site
           mkdir -p site
           cp -R assets site/assets
-          cp index.html 404.html robots.txt sitemap.xml rsg.html web.config ads.txt site/ || true
+          cp index.html 404.html robots.txt sitemap.xml rsg.html web.config ads.txt app-ads.txt site/ || true
           cp -R docs site/docs
           cp -R blog site/blog
           cp -R app-ads.txt site/docs/punjab-educare
