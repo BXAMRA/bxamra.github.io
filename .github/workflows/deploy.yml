@@ -42,6 +42,7 @@ jobs:
           cp -R docs site/docs
           cp -R blog site/blog
           cp -R app-ads.txt site/docs/punjab-educare
+          cp -R app-ads.txt site/docs
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
