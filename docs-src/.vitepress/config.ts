@@ -108,6 +108,15 @@ export default defineConfig({
     ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicon/favicon-32x32.png" }],
     ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicon/favicon-16x16.png" }],
     ["link", { rel: "manifest", href: "/assets/favicon/site.webmanifest" }],
+
+    [
+      "script",
+      {
+        async: "",
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3391196216969529",
+        crossorigin: "anonymous",
+      },
+    ],
   ],
 
   themeConfig: {
