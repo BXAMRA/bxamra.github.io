@@ -11,20 +11,19 @@ onMounted(async () => {
 
   try {
     ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push({});
-  } catch (err) {
-    console.error("AdSense error:", err);
+  } catch (e) {
+    console.error("AdSense error:", e);
   }
 });
 </script>
 
 <template>
   <ins
-    ref="adEl"
     class="adsbygoogle"
     style="display: block"
     data-ad-client="ca-pub-3391196216969529"
     data-ad-slot="9960520269"
     data-ad-format="auto"
     data-full-width-responsive="true"
-  />
+  ></ins>
 </template>
