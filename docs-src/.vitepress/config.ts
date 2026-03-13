@@ -53,14 +53,6 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: "Intellectual Property & Collaboration Notice", link: "/punjab-educare/intellectual-property-collaboration-notice" },
       ],
     },
-    {
-      text: "Change Logs",
-      items: [
-        { text: "Android", link: "/punjab-educare/changelogs/android" },
-        // { text: "Teacher Desktop", link: "/punjab-educare/changelogs/teacher-desktop" },
-        // { text: "Admin Desktop", link: "/punjab-educare/changelogs/admin-desktop" },
-      ],
-    },
   ],
 
   "/whatszip-viewer/": [

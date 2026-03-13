@@ -69,7 +69,7 @@ If your app version shows a β beta symbol `v6.x.xβ`, you are using a beta buil
 
 Punjab Educare’s Android app is the primary client for the platform, providing a role-aware experience for students and teachers, with internal administration capabilities used by the trusted admin team.
 
-Read [Doc](/punjab-educare/android), [Changelog](/punjab-educare/changelogs/android)
+Read [Doc](/punjab-educare/android)
 
 <h2 style="padding-top:1rem; display:flex; align-items:center; gap:12px;">Teacher Desktop App
   <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest" target="_blank">
