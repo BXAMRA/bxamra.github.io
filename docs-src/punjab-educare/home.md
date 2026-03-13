@@ -31,9 +31,7 @@ Please report discrepancies to the website maintainer **Deepak Kumar** at [deepa
 
 ## Platforms
 
-`Android` `iOS (when Available)`\
-`Windows` `MacOS` `Linux`\
-`Web (in Development)`
+`Android` `iOS (when Available)` `Windows` `MacOS` `Web (in Development)`
 
 ## Quick links
 
