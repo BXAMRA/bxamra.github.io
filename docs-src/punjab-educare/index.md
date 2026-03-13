@@ -14,6 +14,10 @@ hero:
       text: Docs
       link: "/punjab-educare/home"
 
+    - theme: brand
+      text: ⤓ Downloads
+      link: "/punjab-educare/#downloads"
+
     - theme: alt
       text: Privacy Policy
       link: "/punjab-educare/privacy-policy"
