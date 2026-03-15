@@ -30,7 +30,7 @@ next: false
 
 **2026-02-28**
 
-- First open release for the latest version.
+- First open release with the updated tech stack.
 
 ## v1.3.0
 
