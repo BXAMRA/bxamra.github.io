@@ -10,12 +10,26 @@ next: false
 
 ## v6
 
+### v6.14.2
+
+**2026-03-16**
+
+- Stability fixes.
+- Feedback option is now moved to teachers area as student have been submitting irrelevant entries.
+
+:::info DETAIL
+Feedback feature was introduced for the betterment of students so they could report missing or outdated website content.
+
+However, it has been misused with irrelevant submissions.\
+ Because of this, the feedback feature has now been moved to the Teachers area.
+:::
+
 ### v6.14.1
 
 **2026-03-13**
 
-- Bug Fixes
-- Improvements
+- Bug Fixes.
+- Improvements.
 
 ### v6.14.0
 
