@@ -15,13 +15,17 @@ next: false
 **2026-03-16**
 
 - Stability fixes.
-- Feedback option is now moved to teachers area as student have been submitting irrelevant entries.
+- Feedback option is now moved to teachers area.
 
 :::info DETAIL
-Feedback feature was introduced for the betterment of students so they could report missing or outdated website content.
+This feature was introduced for the betterment of students so they could report missing, incorrect, or outdated website content.
 
-However, it has been misused with irrelevant submissions.\
- Because of this, the feedback feature has now been moved to the Teachers area.
+However, many students have been misusing it by sending prank or irrelevant feedback.\
+Because of this, the feedback feature has now been moved to the Teachers area.
+
+If any content is missing, incorrect, or outdated, please request your teacher to submit a feedback.
+
+`Teachers are required to have an account and logged in to submit feedbacks.`
 :::
 
 ### v6.14.1
