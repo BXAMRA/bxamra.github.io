@@ -8,8 +8,13 @@ description: Built-in support tickets for teachers (attachments, conversation th
 Punjab Educare includes an in-app support module for teachers to raise issues, request help, and track conversations with the internal support/admin team.
 
 ::: info Availability
-App support is in Beta on latest **Teacher Desktop** versions.\
-Mobile support is currently in development.
+This feature is currently in beta on the latest versions of the apps.
+
+Available on:
+
+- Android `v6.15.0` or later
+- Teacher Desktop `v1.6.0` or later
+
 :::
 
 ## What it supports
