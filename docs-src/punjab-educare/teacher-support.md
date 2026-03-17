@@ -3,7 +3,7 @@ title: Teacher Support - Punjab Educare
 description: Built-in support tickets for teachers (attachments, conversation thread, and status updates).
 ---
 
-# Teacher Support (In Beta)
+# Teacher Support <Badge type="tip" text="Beta" />
 
 Punjab Educare includes an in-app support module for teachers to raise issues, request help, and track conversations with the internal support/admin team.
 
