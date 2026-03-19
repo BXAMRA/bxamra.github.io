@@ -10,6 +10,14 @@ next: false
 
 ## v6
 
+### v6.15.0
+
+**2026-03-17**
+
+- Application support for teachers is now available on the android app.
+
+  Read [Teacher Support](/punjab-educare/teacher-support)
+
 ### v6.14.2
 
 **2026-03-16**
