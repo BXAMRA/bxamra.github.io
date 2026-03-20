@@ -8,6 +8,15 @@ next: false
 
 # Teacher Desktop App Changelog
 
+## v1.7.0
+
+**2026-03-20**
+
+- Added the school transfer request ability.
+- Added a expanded student performance display.
+- Added the dashboard.
+- The check result on desktop app now shows all the created quizzes.
+
 ## v1.6.0
 
 **2026-03-10**

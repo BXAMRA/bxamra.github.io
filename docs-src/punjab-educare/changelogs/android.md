@@ -10,6 +10,13 @@ next: false
 
 ## v6
 
+### v6.15.1
+
+**2026-03-19**
+
+- Fixed the issue where app sometimes got stuck on loading screen.
+- Stability Fixes.
+
 ### v6.15.0
 
 **2026-03-17**
