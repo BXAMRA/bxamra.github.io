@@ -97,27 +97,52 @@ export default defineConfig({
 
   sitemap: { hostname: "https://bxamra.github.io/docs/" },
 
-  head: [
-    ["meta", { property: "og:site_name", content: "BXAMRA" }],
-    ["meta", { property: "og:type", content: "website" }],
-    ["meta", { name: "twitter:card", content: "summary_large_image" }],
-    ["link", { rel: "canonical", href: "https://bxamra.github.io/docs/" }],
+  transformHead: (context) => {
+    const { pageData } = context;
 
-    ["link", { rel: "icon", href: "/assets/favicon/favicon.ico" }],
-    ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/favicon/apple-touch-icon.png" }],
-    ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicon/favicon-32x32.png" }],
-    ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicon/favicon-16x16.png" }],
-    ["link", { rel: "manifest", href: "/assets/favicon/site.webmanifest" }],
+    const baseUrl = "https://bxamra.github.io/docs/";
 
-    [
-      "script",
-      {
-        async: "",
-        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3391196216969529",
-        crossorigin: "anonymous",
-      },
-    ],
-  ],
+    const title = pageData.frontmatter.title || "Docs - BXAMRA";
+
+    const description = pageData.frontmatter.description || "Documentation and guides.";
+
+    const path = pageData.relativePath.replace(/index\.md$/, "").replace(/\.md$/, "");
+
+    const url = baseUrl + path;
+
+    const image = "https://bxamra.github.io/assets/images/og-image.png?v=2";
+
+    return [
+      // OG
+      ["meta", { property: "og:site_name", content: "BXAMRA" }],
+      ["meta", { property: "og:type", content: "article" }],
+      ["meta", { property: "og:title", content: title }],
+      ["meta", { property: "og:description", content: description }],
+      ["meta", { property: "og:url", content: url }],
+      ["meta", { property: "og:image", content: image }],
+      ["meta", { property: "og:image:width", content: "1200" }],
+      ["meta", { property: "og:image:height", content: "630" }],
+
+      // Standard SEO
+      ["meta", { name: "description", content: description }],
+
+      // Twitter
+      ["meta", { name: "twitter:card", content: "summary_large_image" }],
+      ["meta", { name: "twitter:title", content: title }],
+      ["meta", { name: "twitter:description", content: description }],
+      ["meta", { name: "twitter:image", content: image }],
+
+      // Canonical
+      ["link", { rel: "canonical", href: url }],
+
+      // Favicon
+      ["link", { rel: "icon", href: "/assets/favicon/favicon.ico" }],
+      ["link", { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/favicon/apple-touch-icon.png" }],
+      ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicon/favicon-32x32.png" }],
+      ["link", { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicon/favicon-16x16.png" }],
+      ["link", { rel: "manifest", href: "/assets/favicon/site.webmanifest" }],
+    ];
+  },
 
   themeConfig: {
     search: { provider: "local" },
