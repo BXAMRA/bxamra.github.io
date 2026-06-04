@@ -14,8 +14,8 @@ This feature is currently in beta on the latest versions of the apps.
 
 Available on:
 
-- Android `v6.15.0` or later
-- Teacher Desktop `v1.6.0` or later
+- Mobile Apps `v6.15.0` or later
+- Desktop App `v1.6.0` or later
 
 :::
 

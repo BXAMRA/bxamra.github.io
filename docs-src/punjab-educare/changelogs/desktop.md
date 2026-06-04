@@ -6,7 +6,7 @@ prev: false
 next: false
 ---
 
-# Teacher Desktop App Changelog
+# Desktop App Changelog
 
 ## v1.7.0
 

@@ -13,8 +13,6 @@ The new app is faster, lighter, and updates itself automatically — so you will
 The old and new versions of the app **cannot run at the same time**. You must fully remove the old version first before installing the new one.
 :::
 
----
-
 ## Step 1 — Open Control Panel
 
 1. Press the **Windows key** on your keyboard.

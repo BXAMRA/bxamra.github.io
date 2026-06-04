@@ -6,7 +6,7 @@ prev: false
 next: false
 ---
 
-# Android App Changelog
+# Mobile App Changelog
 
 ## v6
 

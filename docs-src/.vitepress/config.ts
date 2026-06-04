@@ -54,10 +54,10 @@ const sidebar: DefaultTheme.Sidebar = {
       ],
     },
     {
-      text: "Change Logs",
+      text: "Changelogs",
       items: [
-        { text: "Android", link: "/punjab-educare/changelogs/android" },
-        { text: "Teacher Desktop", link: "/punjab-educare/changelogs/teacher-desktop" },
+        { text: "Mobile", link: "/punjab-educare/changelogs/mobile" },
+        { text: "Desktop", link: "/punjab-educare/changelogs/desktop" },
         // { text: "Admin Desktop", link: "/punjab-educare/changelogs/admin-desktop" },
       ],
     },
@@ -95,7 +95,13 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
 
-  sitemap: { hostname: "https://bxamra.github.io/docs/" },
+  sitemap: {
+    hostname: "https://bxamra.github.io/docs/",
+
+    transformItems: (items) => {
+      return items.filter((item) => !item.url.startsWith("punjab-educare/api-ref/"));
+    },
+  },
 
   transformHead: (context) => {
     const { pageData } = context;

@@ -54,11 +54,11 @@ For complete terms read [Intellectual Property & Collaboration Notice](/punjab-e
 
 # Downloads
 
-<h2 style="border:none; margin-top:0;">Android App</h2>
+<h2 style="border:none; margin-top:0;">Mobile App</h2>
 
 ::: tip Beta Channel Discontinued
 The beta version of the app has been discontinued as of 2025. The beta download page is removed and will no longer receive updates in 2026.\
-If your app version shows a β beta symbol `v6.x.xβ`, you are using a beta build.Please uninstall it and install the stable version from the app stores listed below.
+If your app version shows a β beta symbol `v6.x.xβ`, you are using a beta build. Please uninstall it and install the stable version from the app stores listed below.
 :::
 
 <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap; margin-top:12px;">
@@ -71,11 +71,11 @@ If your app version shows a β beta symbol `v6.x.xβ`, you are using a beta buil
   </a>
 </div>
 
-Punjab Educare’s Android app is the primary client for the platform, providing a role-aware experience for students and teachers, with internal administration capabilities used by the trusted admin team.
+Punjab Educare Mobile is the primary client for the platform, providing a role-aware experience for students and teachers, with internal administration capabilities used by the trusted admin team.
 
-Read [Doc](/punjab-educare/android), [Changelog](/punjab-educare/changelogs/android)
+Read [Doc](/punjab-educare/android), [Changelog](/punjab-educare/changelogs/mobile)
 
-<h2 style="padding-top:1rem; display:flex; align-items:center; gap:12px;">Teacher Desktop App
+<h2 style="padding-top:1rem; display:flex; align-items:center; gap:12px;">Desktop App
   <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest" target="_blank">
     <img src="https://img.shields.io/github/v/release/BXAMRA/educare-teacher-release?display_name=tag&style=flat&label=&color=lightgrey" alt="version" />
   </a>
@@ -101,7 +101,7 @@ You can remove older installs from `Control Panel > Programs > Uninstall a progr
 
 Teacher Desktop is a dedicated cross-platform application for teachers to contribute questions and support assessment workflows on Punjab Educare.
 
-Read [Doc](/punjab-educare/teacher-desktop), [Update Guide](/punjab-educare/update-from-v1), [Changelog](/punjab-educare/changelogs/teacher-desktop)
+Read [Doc](/punjab-educare/teacher-desktop), [Update Guide](/punjab-educare/update-from-v1), [Changelog](/punjab-educare/changelogs/desktop)
 
 ## Official Distribution
 

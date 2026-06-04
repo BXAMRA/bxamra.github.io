@@ -19,9 +19,7 @@ Students do **not** create accounts in Punjab Educare. This policy applies to **
 
 This policy covers all Punjab Educare apps, as they share the same backend API.
 
-`Android` `iOS (when Available)`\
-`Teacher Desktop` `Admin Desktop`\
-`PWA / Web App (in Development)`
+`Mobile App (Android, iOS - when available)` `Desktop App`
 
 ## Scope
 
