@@ -3,3 +3,5 @@ google.com, pub-3391196216969529, DIRECT, f08c47fec0942fa0
 google.com, pub-3541197831589894, DIRECT, f08c47fec0942fa0
 
 facebook.com, 24825831163700524, DIRECT, c3e20eee3f780d68
+
+inmobi.com, 3fb38018282a43a48ce2d06548f4cf8a, DIRECT, 83e75a7ae333ca9d
