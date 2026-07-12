@@ -2,3 +2,54 @@ footer.VPDocFooter div.edit-info {
   display: flex !important;
   justify-content: flex-end !important;
 }
+
+:root {
+  --vp-layout-max-width: 1440px;
+}
+
+/* Widening doc layout content for invoices */
+.VPDoc .container {
+  max-width: 100% !important;
+}
+
+.VPDoc .content {
+  max-width: 100% !important;
+}
+
+.VPDoc .content-container {
+  max-width: 1150px !important;
+}
+
+/* Force markdown tables to be 100% width */
+.VPDoc table {
+  display: table !important;
+  width: 100% !important;
+  margin: 1.5rem 0 !important;
+}
+
+/* Invoice Header Style */
+.invoice-header-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.invoice-header-card {
+  flex: 1 1 300px;
+  background: var(--vp-c-bg-soft);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--vp-c-divider);
+}
+
+.invoice-header-card h3 {
+  margin-top: 0 !important;
+  color: var(--vp-c-brand-1) !important;
+}
+
+/* Enable line wrapping in code blocks to prevent horizontal scrolling */
+.VPDoc pre, .VPDoc code {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+}
