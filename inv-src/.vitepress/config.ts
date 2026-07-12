@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 const year = new Date().getFullYear();
 
 export default defineConfig({
-  title: "Invoices - BXAMRA",
+  title: "BXAMRA",
   description: "Commercial invoices and delivery reports.",
 
   outDir: "../invoices",
