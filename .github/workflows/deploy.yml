@@ -33,6 +33,7 @@ jobs:
 
       - run: pnpm run docs:build # docs-src -> ./docs
       - run: pnpm run blog:build # blog-src -> ./blog
+      - run: pnpm run inv:build # inv-src -> ./invoices
 
       - run: |
           rm -rf site
@@ -41,6 +42,7 @@ jobs:
           cp index.html 404.html robots.txt sitemap.xml rsg.html web.config ads.txt app-ads.txt site/ || true
           cp -R docs site/docs
           cp -R blog site/blog
+          cp -R invoices site/invoices
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

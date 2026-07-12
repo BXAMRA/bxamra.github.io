@@ -9,7 +9,10 @@
     "docs:preview": "vitepress preview docs-src",
     "blog:dev": "vitepress dev blog-src --open",
     "blog:build": "vitepress build blog-src",
-    "blog:preview": "vitepress preview blog-src"
+    "blog:preview": "vitepress preview blog-src",
+    "inv:dev": "vitepress dev inv-src --open",
+    "inv:build": "vitepress build inv-src",
+    "inv:preview": "vitepress preview inv-src"
   },
   "packageManager": "pnpm@10.31.0",
   "devDependencies": {

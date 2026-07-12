@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /invoices/
 Allow: /
 
 Sitemap: https://bxamra.github.io/sitemap.xml
