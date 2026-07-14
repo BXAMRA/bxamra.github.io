@@ -17,7 +17,7 @@ export default defineConfig({
   head: [["meta", { name: "robots", content: "noindex, nofollow" }]],
 
   themeConfig: {
-    nav: [],
+    nav: [{ text: "Home", link: "/" }],
     sidebar: {},
 
     socialLinks: [
