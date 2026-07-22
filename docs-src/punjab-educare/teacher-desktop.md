@@ -32,16 +32,16 @@ All subsequent versions include enhancements and built-in automatic update suppo
 ## Downloads
 
 <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap">
-  <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest/download/educare-teacher_windows-x86_64-setup.exe" target="_blank">
+  <a href="https://github.com/HOPE-Society/punjab-educare-desktop-release/releases/latest/download/educare-teacher_windows-x86_64-setup.exe" target="_blank">
     <img src="/images/icons/windows.png" alt="Download for Windows" width="200">
   </a>
 
-  <a href="https://github.com/BXAMRA/educare-teacher-release/releases/latest/download/educare-teacher_darwin-aarch64.dmg" target="_blank">
+  <a href="https://github.com/HOPE-Society/punjab-educare-desktop-release/releases/latest/download/educare-teacher_darwin-aarch64.dmg" target="_blank">
     <img src="/images/icons/macOS-m1.png" alt="Download for macOS (Apple Silicon)" width="200">
   </a>
 </div>
 
-> Always download the latest version from the [official release repository](https://github.com/BXAMRA/educare-teacher-release).
+> Always download the latest version from the [official release repository](https://github.com/HOPE-Society/punjab-educare-desktop-release).
 
 ## Installation
 
